@@ -1,0 +1,2957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/artyo/Desktop/projects/Keyboard/design/Mechanical Keyboard.sch</source>
+    <date>10.02.2019 20:14:59</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Mechanical Keyboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Switches Matrix/" tstamps="/5BA94030/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SwitchesMaxtrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/rgb-backlight/" tstamps="/5C4F5362/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rgbbacklight.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Leds Matrix/" tstamps="/5C60C9B8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ledsmatrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATMEGA32U4-AU</value>
+      <footprint>Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm</footprint>
+      <libsource lib="atmel" part="ATMEGA32U4-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4F1518</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>IS31FL3731-SALS2</value>
+      <footprint>Housings_DFN_QFN:QFN-28-1EP_4x4mm_Pitch0.4mm</footprint>
+      <libsource lib="ai03-locallib" part="IS31FL3731-SALS2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4F2549</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>500</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FF9D5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C50D36F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C50D676</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C50EABA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C580BB8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C580CBE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C583CEE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USBMINI_B05</value>
+      <footprint>usb:67503</footprint>
+      <libsource lib="oupiin_usb" part="USBMINI_B05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C58B306</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F64E5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C608F79</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5EEF99</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F33E7</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F5FFC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F6F1C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5FA03C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5FAAE6</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6014FC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6015EB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6895D0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68A00B</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>ASX4</value>
+      <footprint>ndk:4-SMD</footprint>
+      <libsource lib="aker" part="ASX4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F1519</tstamp>
+    </comp>
+    <comp ref="S101">
+      <value>DTSM-6</value>
+      <footprint>dtsm:KSEM31GLFS</footprint>
+      <libsource lib="dtsjw" part="DTSM-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F1D2D</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB119A7</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB11B4C</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB11DA1</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB11FA3</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12082</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12135</tstamp>
+    </comp>
+    <comp ref="S10">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB121DC</tstamp>
+    </comp>
+    <comp ref="S9">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12360</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12427</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB125E0</tstamp>
+    </comp>
+    <comp ref="S11">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB129B5</tstamp>
+    </comp>
+    <comp ref="S12">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12B60</tstamp>
+    </comp>
+    <comp ref="S13">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12C97</tstamp>
+    </comp>
+    <comp ref="S14">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12D92</tstamp>
+    </comp>
+    <comp ref="S15">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12E65</tstamp>
+    </comp>
+    <comp ref="S16">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB12F6C</tstamp>
+    </comp>
+    <comp ref="S17">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1308F</tstamp>
+    </comp>
+    <comp ref="S18">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB131B2</tstamp>
+    </comp>
+    <comp ref="S19">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1329D</tstamp>
+    </comp>
+    <comp ref="S20">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13398</tstamp>
+    </comp>
+    <comp ref="S21">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB134DB</tstamp>
+    </comp>
+    <comp ref="S22">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13626</tstamp>
+    </comp>
+    <comp ref="S23">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13769</tstamp>
+    </comp>
+    <comp ref="S24">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB138B0</tstamp>
+    </comp>
+    <comp ref="S26">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13B1E</tstamp>
+    </comp>
+    <comp ref="S27">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13C59</tstamp>
+    </comp>
+    <comp ref="S28">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13DBC</tstamp>
+    </comp>
+    <comp ref="S29">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB13EE7</tstamp>
+    </comp>
+    <comp ref="S30">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1416D</tstamp>
+    </comp>
+    <comp ref="S31">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB142F4</tstamp>
+    </comp>
+    <comp ref="S32">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1443F</tstamp>
+    </comp>
+    <comp ref="S33">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB146DB</tstamp>
+    </comp>
+    <comp ref="S25">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1480E</tstamp>
+    </comp>
+    <comp ref="S34">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB149D5</tstamp>
+    </comp>
+    <comp ref="S35">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB14BBC</tstamp>
+    </comp>
+    <comp ref="S36">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB14EB7</tstamp>
+    </comp>
+    <comp ref="S37">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15012</tstamp>
+    </comp>
+    <comp ref="S38">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15330</tstamp>
+    </comp>
+    <comp ref="S39">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB154D3</tstamp>
+    </comp>
+    <comp ref="S40">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1567A</tstamp>
+    </comp>
+    <comp ref="S41">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15811</tstamp>
+    </comp>
+    <comp ref="S42">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15B0B</tstamp>
+    </comp>
+    <comp ref="S43">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15C86</tstamp>
+    </comp>
+    <comp ref="S44">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15E21</tstamp>
+    </comp>
+    <comp ref="S45">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB15FD4</tstamp>
+    </comp>
+    <comp ref="S46">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB16352</tstamp>
+    </comp>
+    <comp ref="S47">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB16519</tstamp>
+    </comp>
+    <comp ref="S48">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB16840</tstamp>
+    </comp>
+    <comp ref="S49">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB16CCB</tstamp>
+    </comp>
+    <comp ref="S50">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB17068</tstamp>
+    </comp>
+    <comp ref="S51">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1738B</tstamp>
+    </comp>
+    <comp ref="S52">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1767A</tstamp>
+    </comp>
+    <comp ref="S56">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB17B8B</tstamp>
+    </comp>
+    <comp ref="S57">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18240</tstamp>
+    </comp>
+    <comp ref="S63">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB183AF</tstamp>
+    </comp>
+    <comp ref="S61">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18526</tstamp>
+    </comp>
+    <comp ref="S53">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB186DD</tstamp>
+    </comp>
+    <comp ref="S62">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18860</tstamp>
+    </comp>
+    <comp ref="S66">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18A0F</tstamp>
+    </comp>
+    <comp ref="S67">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18B8A</tstamp>
+    </comp>
+    <comp ref="S58">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18D11</tstamp>
+    </comp>
+    <comp ref="S64">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB18ECC</tstamp>
+    </comp>
+    <comp ref="S69">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB19063</tstamp>
+    </comp>
+    <comp ref="S68">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB191FE</tstamp>
+    </comp>
+    <comp ref="S54">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB1939D</tstamp>
+    </comp>
+    <comp ref="S59">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB19570</tstamp>
+    </comp>
+    <comp ref="S65">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB198EE</tstamp>
+    </comp>
+    <comp ref="S60">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB19ABD</tstamp>
+    </comp>
+    <comp ref="S55">
+      <value>MX1A</value>
+      <footprint>mx1a:MX1A</footprint>
+      <libsource lib="mx1a-simple" part="MX1A"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5BB19C84</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5008C1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50148F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50169A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50182E</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50192B</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C501ABF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C501BCA</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C501D08</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C501E33</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C501F59</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502078</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50219A</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5022CD</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502405</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502538</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5026C2</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502938</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502B36</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502C77</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502DAF</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C502EDE</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50300E</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C503159</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C503299</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5033DE</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C503B2A</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C503C5D</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C503D95</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C503ED0</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504012</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50421F</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504369</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5044B6</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504742</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504995</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504AF7</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504DC9</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C504F45</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5050F0</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C505274</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5053EF</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50556F</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5056E4</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50586E</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C505ADD</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C505C65</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C505DFA</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50633E</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5074BF</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50774B</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5078CA</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C507A4A</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C507CC5</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C507E87</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C508038</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5081E8</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C508397</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C508547</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C50870A</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C5088BE</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C508C22</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C508DEC</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C509405</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C509742</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C509A0F</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C509BC1</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C509D74</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C509F2A</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/Switches Matrix/" tstamps="/5BA94030/"/>
+      <tstamp>5C523721</tstamp>
+    </comp>
+    <comp ref="LED102">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F559D</tstamp>
+    </comp>
+    <comp ref="LED101">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F55EF</tstamp>
+    </comp>
+    <comp ref="LED103">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F5666</tstamp>
+    </comp>
+    <comp ref="LED104">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F5697</tstamp>
+    </comp>
+    <comp ref="LED105">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F56C5</tstamp>
+    </comp>
+    <comp ref="LED109">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F67D5</tstamp>
+    </comp>
+    <comp ref="LED110">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F67DB</tstamp>
+    </comp>
+    <comp ref="LED108">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F67E1</tstamp>
+    </comp>
+    <comp ref="LED107">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F67E7</tstamp>
+    </comp>
+    <comp ref="LED106">
+      <value>WS2812B</value>
+      <footprint>WS2812B:WS2812B</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F67ED</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F9B26</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F9B9D</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F9C07</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F9C90</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4F9CF6</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4FB230</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4FB2C0</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4FB33B</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4FB3B1</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C4FB42E</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>20K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/rgb-backlight/" tstamps="/5C4F5362/"/>
+      <tstamp>5C6989B6</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C60D53D</tstamp>
+    </comp>
+    <comp ref="LED67">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F264B</tstamp>
+    </comp>
+    <comp ref="LED56">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F26B3</tstamp>
+    </comp>
+    <comp ref="LED51">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2774</tstamp>
+    </comp>
+    <comp ref="LED46">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F277A</tstamp>
+    </comp>
+    <comp ref="LED38">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2966</tstamp>
+    </comp>
+    <comp ref="LED30">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F296C</tstamp>
+    </comp>
+    <comp ref="LED21">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2972</tstamp>
+    </comp>
+    <comp ref="LED11">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2978</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F07</tstamp>
+    </comp>
+    <comp ref="LED64">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F0D</tstamp>
+    </comp>
+    <comp ref="LED53">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F13</tstamp>
+    </comp>
+    <comp ref="LED47">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F19</tstamp>
+    </comp>
+    <comp ref="LED39">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F1F</tstamp>
+    </comp>
+    <comp ref="LED35">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F25</tstamp>
+    </comp>
+    <comp ref="LED22">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F2B</tstamp>
+    </comp>
+    <comp ref="LED12">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F31</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F2F37</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A59</tstamp>
+    </comp>
+    <comp ref="LED61">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A5F</tstamp>
+    </comp>
+    <comp ref="LED60">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A65</tstamp>
+    </comp>
+    <comp ref="LED45">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A6B</tstamp>
+    </comp>
+    <comp ref="LED40">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A71</tstamp>
+    </comp>
+    <comp ref="LED32">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A77</tstamp>
+    </comp>
+    <comp ref="LED23">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A7D</tstamp>
+    </comp>
+    <comp ref="LED13">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A83</tstamp>
+    </comp>
+    <comp ref="LED9">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A89</tstamp>
+    </comp>
+    <comp ref="LED58">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A95</tstamp>
+    </comp>
+    <comp ref="LED68">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3A9B</tstamp>
+    </comp>
+    <comp ref="LED50">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3AA1</tstamp>
+    </comp>
+    <comp ref="LED41">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3AA7</tstamp>
+    </comp>
+    <comp ref="LED33">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3AAD</tstamp>
+    </comp>
+    <comp ref="LED29">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3AB3</tstamp>
+    </comp>
+    <comp ref="LED14">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3AB9</tstamp>
+    </comp>
+    <comp ref="LED20">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F3ABF</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5025</tstamp>
+    </comp>
+    <comp ref="LED66">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F502B</tstamp>
+    </comp>
+    <comp ref="LED57">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5031</tstamp>
+    </comp>
+    <comp ref="LED52">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5037</tstamp>
+    </comp>
+    <comp ref="LED42">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F503D</tstamp>
+    </comp>
+    <comp ref="LED34">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5043</tstamp>
+    </comp>
+    <comp ref="LED26">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5049</tstamp>
+    </comp>
+    <comp ref="LED16">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F504F</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5055</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F505B</tstamp>
+    </comp>
+    <comp ref="LED63">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5061</tstamp>
+    </comp>
+    <comp ref="LED54">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5067</tstamp>
+    </comp>
+    <comp ref="LED48">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F506D</tstamp>
+    </comp>
+    <comp ref="LED43">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5073</tstamp>
+    </comp>
+    <comp ref="LED31">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5079</tstamp>
+    </comp>
+    <comp ref="LED27">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F507F</tstamp>
+    </comp>
+    <comp ref="LED17">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5085</tstamp>
+    </comp>
+    <comp ref="LED8">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F508B</tstamp>
+    </comp>
+    <comp ref="LED10">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5091</tstamp>
+    </comp>
+    <comp ref="LED62">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F5097</tstamp>
+    </comp>
+    <comp ref="LED65">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F509D</tstamp>
+    </comp>
+    <comp ref="LED49">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50A3</tstamp>
+    </comp>
+    <comp ref="LED44">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50A9</tstamp>
+    </comp>
+    <comp ref="LED36">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50AF</tstamp>
+    </comp>
+    <comp ref="LED28">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50B5</tstamp>
+    </comp>
+    <comp ref="LED18">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50BB</tstamp>
+    </comp>
+    <comp ref="LED15">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50C1</tstamp>
+    </comp>
+    <comp ref="LED59">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50CD</tstamp>
+    </comp>
+    <comp ref="LED69">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50D3</tstamp>
+    </comp>
+    <comp ref="LED55">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50D9</tstamp>
+    </comp>
+    <comp ref="LED37">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50DF</tstamp>
+    </comp>
+    <comp ref="LED25">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50E5</tstamp>
+    </comp>
+    <comp ref="LED24">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50EB</tstamp>
+    </comp>
+    <comp ref="LED19">
+      <value>LED</value>
+      <footprint>mx1a:MX1A-led</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Leds Matrix/" tstamps="/5C60C9B8/"/>
+      <tstamp>5C5F50F1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+        <fp>D*SOD27*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diodes_THT:D_DO-35_SOD27_Horizontal_RM10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="aker" part="ASX4">
+      <footprints>
+        <fp>aker</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ASX4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="ATMEGA16U4-AU">
+      <aliases>
+        <alias>ATMEGA16U4RC-AU</alias>
+        <alias>ATMEGA32U4-AU</alias>
+        <alias>ATMEGA32U4RC-AU</alias>
+      </aliases>
+      <description>TQFP44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0</description>
+      <docs>http://www.atmel.com/images/atmel-7766-8-bit-avr-atmega16u4-32u4_%20datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP44</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA16U4-AU</field>
+        <field name="Footprint">TQFP44</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(INT6/AIN0)PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="passive"/>
+        <pin num="8" name="(SS/PCINT0)PB0" type="BiDi"/>
+        <pin num="9" name="(SCLK/PCINT1)PB1" type="BiDi"/>
+        <pin num="10" name="(PDI/MOSI/PCINT2)PB2" type="BiDi"/>
+        <pin num="11" name="(PDO/MISO/PCINT3)PB3" type="BiDi"/>
+        <pin num="12" name="(OC0A/OC1C/~RTS~/PCINT7)PB7" type="BiDi"/>
+        <pin num="13" name="~RESET~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="(OC0B/SCL/INT0)PD0" type="BiDi"/>
+        <pin num="19" name="(SDA/INT1)PD1" type="BiDi"/>
+        <pin num="20" name="(RXD/INT2)PD2" type="BiDi"/>
+        <pin num="21" name="(TXD/INT3)PD3" type="BiDi"/>
+        <pin num="22" name="(XCK1/~CTS~)PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="(ICP2/ADC8)PD4" type="BiDi"/>
+        <pin num="26" name="(T1/~OC4D~/ADC9)PD6" type="BiDi"/>
+        <pin num="27" name="(T0/OC4D/ADC10)PD7" type="BiDi"/>
+        <pin num="28" name="(ADC11/PCINT4)PB4" type="BiDi"/>
+        <pin num="29" name="(ADC12/OC1A/~OC4B~/PCINT12)PB5" type="BiDi"/>
+        <pin num="30" name="(ADC13/OC1B/OC4B/PCINT13)PB6" type="BiDi"/>
+        <pin num="31" name="(OC3A/~OC4A~)PC6" type="BiDi"/>
+        <pin num="32" name="(ICP3/CLK0/OC4A)PC7" type="BiDi"/>
+        <pin num="33" name="(~HWB~)PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="(ADC7/TDI)PF7" type="BiDi"/>
+        <pin num="37" name="(ADC6/TDO)PF6" type="BiDi"/>
+        <pin num="38" name="(ADC5/TMS)PF5" type="BiDi"/>
+        <pin num="39" name="(ADC4/TCK)PF4" type="BiDi"/>
+        <pin num="40" name="(ADC1)PF1" type="BiDi"/>
+        <pin num="41" name="(ADC0)PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtsjw" part="DTSM-6">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">DTSM-6</field>
+        <field name="Footprint">switch-tact-DTSM-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ai03-locallib" part="IS31FL3731-SALS2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IS31FL3731-SALS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CA9" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SDB" type="input"/>
+        <pin num="4" name="INTB" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="R_EXT" type="input"/>
+        <pin num="7" name="CB1" type="input"/>
+        <pin num="8" name="CB2" type="input"/>
+        <pin num="9" name="CB3" type="input"/>
+        <pin num="10" name="CB4" type="input"/>
+        <pin num="11" name="CB5" type="input"/>
+        <pin num="12" name="CB6" type="input"/>
+        <pin num="13" name="CB7" type="input"/>
+        <pin num="14" name="CB8" type="input"/>
+        <pin num="15" name="CB9" type="input"/>
+        <pin num="16" name="C_FILT" type="input"/>
+        <pin num="17" name="IN" type="input"/>
+        <pin num="18" name="AD" type="input"/>
+        <pin num="19" name="SDA" type="input"/>
+        <pin num="20" name="SCL" type="input"/>
+        <pin num="21" name="CA1" type="input"/>
+        <pin num="22" name="CA2" type="input"/>
+        <pin num="23" name="CA3" type="input"/>
+        <pin num="24" name="CA4" type="input"/>
+        <pin num="25" name="CA5" type="input"/>
+        <pin num="26" name="CA6" type="input"/>
+        <pin num="27" name="CA7" type="input"/>
+        <pin num="28" name="CA8" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mx1a-simple" part="MX1A">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MX1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oupiin_usb" part="USBMINI_B05">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USBMINI_B05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="power_out"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ws2812b" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">WS2812B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="mx1a-simple">
+      <uri>libs\mx1a-simple.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library\diode.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
+    </library>
+    <library logical="ws2812b">
+      <uri>libs\WS2812B.pretty-master\Schematic-Symbol\ws2812b.lib</uri>
+    </library>
+    <library logical="ai03-locallib">
+      <uri>libs\ai03-locallib.lib</uri>
+    </library>
+    <library logical="oupiin_usb">
+      <uri>libs\oupiin_usb.lib</uri>
+    </library>
+    <library logical="dtsjw">
+      <uri>libs\dtsjw.lib</uri>
+    </library>
+    <library logical="aker">
+      <uri>libs\aker.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="LED103" pin="1"/>
+      <node ref="LED101" pin="1"/>
+      <node ref="LED102" pin="1"/>
+      <node ref="LED107" pin="1"/>
+      <node ref="LED108" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="LED110" pin="1"/>
+      <node ref="LED106" pin="1"/>
+      <node ref="LED104" pin="1"/>
+      <node ref="LED109" pin="1"/>
+      <node ref="LED105" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="34"/>
+      <node ref="U1" pin="44"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C110" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R12-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R13-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="4" name="/led_ca4">
+      <node ref="LED46" pin="1"/>
+      <node ref="U2" pin="24"/>
+      <node ref="LED40" pin="1"/>
+      <node ref="LED37" pin="1"/>
+      <node ref="LED42" pin="1"/>
+      <node ref="LED41" pin="1"/>
+      <node ref="LED44" pin="1"/>
+      <node ref="LED8" pin="2"/>
+      <node ref="LED17" pin="2"/>
+      <node ref="LED27" pin="2"/>
+      <node ref="LED31" pin="2"/>
+      <node ref="LED43" pin="1"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="LED39" pin="1"/>
+      <node ref="LED47" pin="2"/>
+      <node ref="LED53" pin="2"/>
+      <node ref="LED64" pin="2"/>
+    </net>
+    <net code="5" name="/led_ca2">
+      <node ref="LED65" pin="1"/>
+      <node ref="U2" pin="22"/>
+      <node ref="LED69" pin="1"/>
+      <node ref="LED42" pin="2"/>
+      <node ref="LED34" pin="2"/>
+      <node ref="LED52" pin="2"/>
+      <node ref="LED57" pin="1"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED68" pin="1"/>
+      <node ref="LED54" pin="1"/>
+      <node ref="LED6" pin="2"/>
+      <node ref="LED16" pin="2"/>
+      <node ref="LED26" pin="2"/>
+      <node ref="LED53" pin="1"/>
+      <node ref="LED60" pin="1"/>
+      <node ref="LED67" pin="2"/>
+      <node ref="LED56" pin="1"/>
+    </net>
+    <net code="6" name="/led_ca1">
+      <node ref="LED56" pin="2"/>
+      <node ref="LED66" pin="1"/>
+      <node ref="LED62" pin="1"/>
+      <node ref="LED58" pin="1"/>
+      <node ref="LED63" pin="1"/>
+      <node ref="LED30" pin="2"/>
+      <node ref="LED64" pin="1"/>
+      <node ref="LED11" pin="2"/>
+      <node ref="LED21" pin="2"/>
+      <node ref="LED38" pin="2"/>
+      <node ref="LED59" pin="1"/>
+      <node ref="LED61" pin="1"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="LED67" pin="1"/>
+      <node ref="LED46" pin="2"/>
+      <node ref="LED51" pin="2"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="7" name="/led_ca9">
+      <node ref="LED25" pin="2"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED55" pin="2"/>
+      <node ref="LED37" pin="2"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="LED19" pin="2"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="LED59" pin="2"/>
+      <node ref="LED10" pin="1"/>
+      <node ref="LED69" pin="2"/>
+      <node ref="LED24" pin="2"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="8" name="/led_ca8">
+      <node ref="LED9" pin="1"/>
+      <node ref="U2" pin="28"/>
+      <node ref="LED14" pin="2"/>
+      <node ref="LED29" pin="2"/>
+      <node ref="LED20" pin="1"/>
+      <node ref="LED68" pin="2"/>
+      <node ref="LED50" pin="2"/>
+      <node ref="LED11" pin="1"/>
+      <node ref="LED58" pin="2"/>
+      <node ref="LED15" pin="1"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="LED41" pin="2"/>
+      <node ref="LED8" pin="1"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="LED33" pin="2"/>
+    </net>
+    <net code="9" name="/led_ca7">
+      <node ref="LED12" pin="1"/>
+      <node ref="LED62" pin="2"/>
+      <node ref="LED14" pin="1"/>
+      <node ref="LED13" pin="1"/>
+      <node ref="LED20" pin="2"/>
+      <node ref="LED65" pin="2"/>
+      <node ref="LED18" pin="1"/>
+      <node ref="LED28" pin="2"/>
+      <node ref="LED36" pin="2"/>
+      <node ref="LED44" pin="2"/>
+      <node ref="LED49" pin="2"/>
+      <node ref="LED21" pin="1"/>
+      <node ref="LED16" pin="1"/>
+      <node ref="LED17" pin="1"/>
+      <node ref="U2" pin="27"/>
+      <node ref="LED19" pin="1"/>
+    </net>
+    <net code="10" name="/led_ca6">
+      <node ref="LED32" pin="2"/>
+      <node ref="LED22" pin="1"/>
+      <node ref="LED27" pin="1"/>
+      <node ref="LED26" pin="1"/>
+      <node ref="U2" pin="26"/>
+      <node ref="LED61" pin="2"/>
+      <node ref="LED30" pin="1"/>
+      <node ref="LED24" pin="1"/>
+      <node ref="LED10" pin="2"/>
+      <node ref="LED15" pin="2"/>
+      <node ref="LED29" pin="1"/>
+      <node ref="LED28" pin="1"/>
+      <node ref="LED45" pin="2"/>
+      <node ref="LED40" pin="2"/>
+      <node ref="LED23" pin="1"/>
+      <node ref="LED60" pin="2"/>
+      <node ref="LED18" pin="2"/>
+    </net>
+    <net code="11" name="/led_ca5">
+      <node ref="LED43" pin="2"/>
+      <node ref="LED48" pin="2"/>
+      <node ref="LED31" pin="1"/>
+      <node ref="LED32" pin="1"/>
+      <node ref="LED54" pin="2"/>
+      <node ref="LED33" pin="1"/>
+      <node ref="LED63" pin="2"/>
+      <node ref="LED9" pin="2"/>
+      <node ref="LED23" pin="2"/>
+      <node ref="LED34" pin="1"/>
+      <node ref="LED13" pin="2"/>
+      <node ref="LED38" pin="1"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="LED25" pin="1"/>
+      <node ref="U2" pin="25"/>
+      <node ref="LED36" pin="1"/>
+      <node ref="LED35" pin="1"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="LED110" pin="3"/>
+      <node ref="LED102" pin="3"/>
+      <node ref="LED101" pin="3"/>
+      <node ref="LED103" pin="3"/>
+      <node ref="LED109" pin="3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="LED105" pin="3"/>
+      <node ref="LED104" pin="3"/>
+      <node ref="LED108" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R5" pin="1"/>
+      <node ref="LED107" pin="3"/>
+      <node ref="LED106" pin="3"/>
+      <node ref="R100" pin="2"/>
+      <node ref="S101" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="X1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C107" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="35"/>
+      <node ref="C109" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C110" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="14" name="/swm_col2">
+      <node ref="D10" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="16" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="17" name="/led_ca3">
+      <node ref="LED50" pin="1"/>
+      <node ref="LED39" pin="2"/>
+      <node ref="LED48" pin="1"/>
+      <node ref="U2" pin="23"/>
+      <node ref="LED51" pin="1"/>
+      <node ref="LED49" pin="1"/>
+      <node ref="LED66" pin="2"/>
+      <node ref="LED45" pin="1"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="LED55" pin="1"/>
+      <node ref="LED52" pin="1"/>
+      <node ref="LED47" pin="1"/>
+      <node ref="LED57" pin="2"/>
+      <node ref="LED7" pin="2"/>
+      <node ref="LED12" pin="2"/>
+      <node ref="LED22" pin="2"/>
+      <node ref="LED35" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="19" name="Net-(R6-Pad2)">
+      <node ref="U1" pin="39"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="20" name="Net-(S101-Pad4)">
+      <node ref="S101" pin="4"/>
+    </net>
+    <net code="21" name="Net-(S101-Pad2)">
+      <node ref="S101" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="33"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="/usb_d+">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="25" name="/usb_d-">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="34" name="/swm_col10">
+      <node ref="D42" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="D45" pin="1"/>
+    </net>
+    <net code="35" name="/i2c_sda">
+      <node ref="U2" pin="19"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="36" name="/swm_col13">
+      <node ref="D57" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D58" pin="1"/>
+    </net>
+    <net code="37" name="/i2c_scl">
+      <node ref="U1" pin="18"/>
+      <node ref="U2" pin="20"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="38" name="/swm_col11">
+      <node ref="D46" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="U1" pin="37"/>
+      <node ref="D48" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="40" name="/swm_col9">
+      <node ref="U1" pin="36"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D40" pin="1"/>
+    </net>
+    <net code="41" name="/swm_col7">
+      <node ref="U1" pin="26"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="42" name="/rgb-backlight/data_input">
+      <node ref="LED101" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="45" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="47" name="/swm_col15">
+      <node ref="U1" pin="41"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D66" pin="1"/>
+      <node ref="D67" pin="1"/>
+    </net>
+    <net code="48" name="/swm_col14">
+      <node ref="D68" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="U1" pin="27"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D64" pin="1"/>
+    </net>
+    <net code="49" name="/swm_col12">
+      <node ref="U1" pin="28"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="50" name="/swm_col1">
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="51" name="/swm_col4">
+      <node ref="D18" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="52" name="Net-(C3-Pad2)">
+      <node ref="U1" pin="16"/>
+      <node ref="C3" pin="2"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="53" name="/swm_col5">
+      <node ref="U1" pin="25"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="13"/>
+      <node ref="R1" pin="2"/>
+      <node ref="S101" pin="3"/>
+    </net>
+    <net code="55" name="/swm_col3">
+      <node ref="D15" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U1" pin="22"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="56" name="/swm_row5">
+      <node ref="S5" pin="1"/>
+      <node ref="S25" pin="1"/>
+      <node ref="S50" pin="1"/>
+      <node ref="S55" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="S15" pin="1"/>
+      <node ref="S10" pin="1"/>
+      <node ref="S20" pin="1"/>
+      <node ref="S60" pin="1"/>
+      <node ref="S65" pin="1"/>
+    </net>
+    <net code="57" name="/swm_col6">
+      <node ref="D29" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="58" name="/swm_row4">
+      <node ref="U1" pin="11"/>
+      <node ref="S24" pin="1"/>
+      <node ref="S41" pin="1"/>
+      <node ref="S68" pin="1"/>
+      <node ref="S54" pin="1"/>
+      <node ref="S59" pin="1"/>
+      <node ref="S37" pin="1"/>
+      <node ref="S33" pin="1"/>
+      <node ref="S49" pin="1"/>
+      <node ref="S45" pin="1"/>
+      <node ref="S69" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="S9" pin="1"/>
+      <node ref="S19" pin="1"/>
+      <node ref="S14" pin="1"/>
+      <node ref="S29" pin="1"/>
+    </net>
+    <net code="59" name="/swm_col8">
+      <node ref="D36" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="60" name="/rgb_bl">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="61" name="/swm_row3">
+      <node ref="S67" pin="1"/>
+      <node ref="S58" pin="1"/>
+      <node ref="S64" pin="1"/>
+      <node ref="S40" pin="1"/>
+      <node ref="S36" pin="1"/>
+      <node ref="S48" pin="1"/>
+      <node ref="S44" pin="1"/>
+      <node ref="S53" pin="1"/>
+      <node ref="S8" pin="1"/>
+      <node ref="S3" pin="1"/>
+      <node ref="S13" pin="1"/>
+      <node ref="S23" pin="1"/>
+      <node ref="S28" pin="1"/>
+      <node ref="S18" pin="1"/>
+      <node ref="S32" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="62" name="/swm_row2">
+      <node ref="S12" pin="1"/>
+      <node ref="S22" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S27" pin="1"/>
+      <node ref="S7" pin="1"/>
+      <node ref="S52" pin="1"/>
+      <node ref="S17" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="S31" pin="1"/>
+      <node ref="S47" pin="1"/>
+      <node ref="S35" pin="1"/>
+      <node ref="S62" pin="1"/>
+      <node ref="S39" pin="1"/>
+      <node ref="S43" pin="1"/>
+      <node ref="S57" pin="1"/>
+      <node ref="S66" pin="1"/>
+    </net>
+    <net code="63" name="/swm_row1">
+      <node ref="U1" pin="8"/>
+      <node ref="S16" pin="1"/>
+      <node ref="S21" pin="1"/>
+      <node ref="S11" pin="1"/>
+      <node ref="S46" pin="1"/>
+      <node ref="S42" pin="1"/>
+      <node ref="S61" pin="1"/>
+      <node ref="S34" pin="1"/>
+      <node ref="S56" pin="1"/>
+      <node ref="S38" pin="1"/>
+      <node ref="S51" pin="1"/>
+      <node ref="S63" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S30" pin="1"/>
+      <node ref="S26" pin="1"/>
+      <node ref="S6" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="66" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+      <node ref="S41" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D42-Pad2)">
+      <node ref="S42" pin="2"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D43-Pad2)">
+      <node ref="S43" pin="2"/>
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D44-Pad2)">
+      <node ref="S44" pin="2"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D45-Pad2)">
+      <node ref="S45" pin="2"/>
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D46-Pad2)">
+      <node ref="S46" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2"/>
+      <node ref="S47" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D48-Pad2)">
+      <node ref="S48" pin="2"/>
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D49-Pad2)">
+      <node ref="S49" pin="2"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="S36" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D33-Pad2)">
+      <node ref="S33" pin="2"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="S25" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="S34" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="S35" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2"/>
+      <node ref="S50" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2"/>
+      <node ref="S37" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D38-Pad2)">
+      <node ref="S38" pin="2"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+      <node ref="S39" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="S40" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D68-Pad2)">
+      <node ref="D68" pin="2"/>
+      <node ref="S68" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D67-Pad2)">
+      <node ref="S67" pin="2"/>
+      <node ref="D67" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D58-Pad2)">
+      <node ref="S58" pin="2"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D64-Pad2)">
+      <node ref="S64" pin="2"/>
+      <node ref="D64" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D69-Pad2)">
+      <node ref="S69" pin="2"/>
+      <node ref="D69" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D66-Pad2)">
+      <node ref="D66" pin="2"/>
+      <node ref="S66" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="S54" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D59-Pad2)">
+      <node ref="D59" pin="2"/>
+      <node ref="S59" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D65-Pad2)">
+      <node ref="D65" pin="2"/>
+      <node ref="S65" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2"/>
+      <node ref="S60" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="S51" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+      <node ref="S52" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2"/>
+      <node ref="S56" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2"/>
+      <node ref="S57" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D63-Pad2)">
+      <node ref="D63" pin="2"/>
+      <node ref="S63" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D61-Pad2)">
+      <node ref="S61" pin="2"/>
+      <node ref="D61" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D53-Pad2)">
+      <node ref="S53" pin="2"/>
+      <node ref="D53" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2"/>
+      <node ref="S62" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="S3" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="S5" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="S4" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="S10" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="S9" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="S8" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D7-Pad2)">
+      <node ref="S7" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D11-Pad2)">
+      <node ref="S11" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D12-Pad2)">
+      <node ref="S12" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="112" name="Net-(D13-Pad2)">
+      <node ref="S13" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="S6" pin="2"/>
+    </net>
+    <net code="115" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="S28" pin="2"/>
+    </net>
+    <net code="117" name="Net-(D23-Pad2)">
+      <node ref="S23" pin="2"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="118" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="S24" pin="2"/>
+    </net>
+    <net code="119" name="Net-(D26-Pad2)">
+      <node ref="S26" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="120" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="S27" pin="2"/>
+    </net>
+    <net code="121" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="S22" pin="2"/>
+    </net>
+    <net code="122" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="S29" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="S30" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="S31" pin="2"/>
+    </net>
+    <net code="125" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="S32" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="S14" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="S15" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="S16" pin="2"/>
+    </net>
+    <net code="129" name="Net-(D17-Pad2)">
+      <node ref="S17" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="130" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="S18" pin="2"/>
+    </net>
+    <net code="131" name="Net-(D19-Pad2)">
+      <node ref="S19" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="132" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="S20" pin="2"/>
+    </net>
+    <net code="133" name="Net-(D21-Pad2)">
+      <node ref="S21" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D55-Pad2)">
+      <node ref="S55" pin="2"/>
+      <node ref="D55" pin="2"/>
+    </net>
+    <net code="135" name="Net-(LED110-Pad2)">
+      <node ref="R100" pin="1"/>
+      <node ref="LED110" pin="2"/>
+    </net>
+    <net code="136" name="Net-(LED109-Pad2)">
+      <node ref="LED109" pin="2"/>
+      <node ref="LED110" pin="4"/>
+    </net>
+    <net code="137" name="Net-(LED107-Pad2)">
+      <node ref="LED107" pin="2"/>
+      <node ref="LED108" pin="4"/>
+    </net>
+    <net code="138" name="Net-(LED108-Pad2)">
+      <node ref="LED108" pin="2"/>
+      <node ref="LED109" pin="4"/>
+    </net>
+    <net code="139" name="Net-(LED106-Pad2)">
+      <node ref="LED106" pin="2"/>
+      <node ref="LED107" pin="4"/>
+    </net>
+    <net code="140" name="Net-(LED101-Pad2)">
+      <node ref="LED102" pin="4"/>
+      <node ref="LED101" pin="2"/>
+    </net>
+    <net code="141" name="Net-(LED102-Pad2)">
+      <node ref="LED103" pin="4"/>
+      <node ref="LED102" pin="2"/>
+    </net>
+    <net code="142" name="Net-(LED103-Pad2)">
+      <node ref="LED103" pin="2"/>
+      <node ref="LED104" pin="4"/>
+    </net>
+    <net code="143" name="Net-(LED105-Pad2)">
+      <node ref="LED106" pin="4"/>
+      <node ref="LED105" pin="2"/>
+    </net>
+    <net code="144" name="Net-(LED104-Pad2)">
+      <node ref="LED104" pin="2"/>
+      <node ref="LED105" pin="4"/>
+    </net>
+  </nets>
+</export>

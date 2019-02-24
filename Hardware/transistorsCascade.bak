@@ -1,0 +1,372 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:aker
+LIBS:atmega32u4
+LIBS:dtsjw
+LIBS:mx1a-simple
+LIBS:oupiin_usb
+LIBS:device
+LIBS:promicro
+LIBS:LED
+LIBS:device-clone
+LIBS:eurocad
+LIBS:Mechanical Keyboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1800 1800 0    60   Output ~ 0
+out1
+Wire Wire Line
+	3550 1800 1800 1800
+Connection ~ 2900 1400
+Wire Wire Line
+	2300 1400 3550 1400
+Text HLabel 1800 2350 0    60   Output ~ 0
+out2
+Wire Wire Line
+	3550 2350 1800 2350
+Connection ~ 2900 1950
+Wire Wire Line
+	3550 1950 2900 1950
+Text HLabel 1800 2900 0    60   Output ~ 0
+out3
+Wire Wire Line
+	3550 2900 1800 2900
+Connection ~ 2900 2500
+Wire Wire Line
+	2900 2500 3550 2500
+Text HLabel 1800 3450 0    60   Output ~ 0
+out4
+Wire Wire Line
+	3550 3450 1800 3450
+Connection ~ 2900 3050
+Wire Wire Line
+	2900 3050 3550 3050
+Text HLabel 1800 4000 0    60   Output ~ 0
+out5
+Wire Wire Line
+	3550 4000 1800 4000
+Connection ~ 2900 3600
+Wire Wire Line
+	2900 3600 3550 3600
+Text HLabel 1800 4550 0    60   Output ~ 0
+out6
+Wire Wire Line
+	3550 4550 1800 4550
+Connection ~ 2900 4150
+Wire Wire Line
+	2900 4150 3550 4150
+Text HLabel 1800 5100 0    60   Output ~ 0
+out7
+Wire Wire Line
+	3550 5100 1800 5100
+Connection ~ 2900 4700
+Wire Wire Line
+	2900 4700 3550 4700
+Text HLabel 1800 5650 0    60   Output ~ 0
+out8
+Wire Wire Line
+	3550 5650 1800 5650
+Connection ~ 2900 5250
+Wire Wire Line
+	2900 5250 3550 5250
+Text HLabel 3850 1600 2    60   Input ~ 0
+inp1
+Text HLabel 3850 2150 2    60   Input ~ 0
+inp2
+Text HLabel 3850 2700 2    60   Input ~ 0
+inp3
+Text HLabel 3850 3250 2    60   Input ~ 0
+inp4
+Text HLabel 3850 3800 2    60   Input ~ 0
+inp5
+Text HLabel 3850 4350 2    60   Input ~ 0
+inp6
+Text HLabel 3850 4900 2    60   Input ~ 0
+inp7
+Text HLabel 3850 5450 2    60   Input ~ 0
+inp8
+Text HLabel 5100 2350 0    60   Output ~ 0
+out15
+Wire Wire Line
+	6850 2350 5100 2350
+Connection ~ 6200 1950
+Wire Wire Line
+	6850 1950 6200 1950
+Text HLabel 5100 2900 0    60   Output ~ 0
+out14
+Wire Wire Line
+	6850 2900 5100 2900
+Connection ~ 6200 2500
+Wire Wire Line
+	6850 2500 6200 2500
+Text HLabel 5100 3450 0    60   Output ~ 0
+out13
+Wire Wire Line
+	6850 3450 5100 3450
+Connection ~ 6200 3050
+Wire Wire Line
+	6200 3050 6850 3050
+Text HLabel 5100 4000 0    60   Output ~ 0
+out12
+Wire Wire Line
+	6850 4000 5100 4000
+Connection ~ 6200 3600
+Wire Wire Line
+	6200 3600 6850 3600
+Text HLabel 5100 4550 0    60   Output ~ 0
+out11
+Wire Wire Line
+	6850 4550 5100 4550
+Connection ~ 6200 4150
+Wire Wire Line
+	6200 4150 6850 4150
+Text HLabel 5100 5100 0    60   Output ~ 0
+out10
+Wire Wire Line
+	6850 5100 5100 5100
+Connection ~ 6200 4700
+Wire Wire Line
+	6200 4700 6850 4700
+Text HLabel 5100 5650 0    60   Output ~ 0
+out9
+Wire Wire Line
+	6850 5650 5100 5650
+Connection ~ 6200 5250
+Wire Wire Line
+	6200 5250 6850 5250
+Text HLabel 7150 2150 2    60   Input ~ 0
+inp15
+Text HLabel 7150 2700 2    60   Input ~ 0
+inp14
+Text HLabel 7150 3250 2    60   Input ~ 0
+inp13
+Text HLabel 7150 3800 2    60   Input ~ 0
+inp12
+Text HLabel 7150 4350 2    60   Input ~ 0
+inp11
+Text HLabel 7150 4900 2    60   Input ~ 0
+inp10
+Text HLabel 7150 5450 2    60   Input ~ 0
+inp9
+Wire Wire Line
+	2900 1400 2900 6050
+Wire Wire Line
+	2900 6050 6200 6050
+Wire Wire Line
+	6200 6050 6200 1950
+Text HLabel 2300 1400 0    60   Input ~ 0
+VCCIN
+$Comp
+L 2N2219 Q1
+U 1 1 5BC681B1
+P 3650 1600
+F 0 "Q1" H 3850 1675 50  0000 L CNN
+F 1 "2N2219" H 3850 1600 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 1525 50  0001 L CIN
+F 3 "" H 3650 1600 50  0001 L CNN
+	1    3650 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q2
+U 1 1 5BC682BD
+P 3650 2150
+F 0 "Q2" H 3850 2225 50  0000 L CNN
+F 1 "2N2219" H 3850 2150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 2075 50  0001 L CIN
+F 3 "" H 3650 2150 50  0001 L CNN
+	1    3650 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q15
+U 1 1 5BC68378
+P 6950 5450
+F 0 "Q15" H 7150 5525 50  0000 L CNN
+F 1 "2N2219" H 7150 5450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 5375 50  0001 L CIN
+F 3 "" H 6950 5450 50  0001 L CNN
+	1    6950 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q3
+U 1 1 5BC68689
+P 3650 2700
+F 0 "Q3" H 3850 2775 50  0000 L CNN
+F 1 "2N2219" H 3850 2700 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 2625 50  0001 L CIN
+F 3 "" H 3650 2700 50  0001 L CNN
+	1    3650 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q4
+U 1 1 5BC686C2
+P 3650 3250
+F 0 "Q4" H 3850 3325 50  0000 L CNN
+F 1 "2N2219" H 3850 3250 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 3175 50  0001 L CIN
+F 3 "" H 3650 3250 50  0001 L CNN
+	1    3650 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q9
+U 1 1 5BC686FF
+P 6950 2150
+F 0 "Q9" H 7150 2225 50  0000 L CNN
+F 1 "2N2219" H 7150 2150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 2075 50  0001 L CIN
+F 3 "" H 6950 2150 50  0001 L CNN
+	1    6950 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q10
+U 1 1 5BC68738
+P 6950 2700
+F 0 "Q10" H 7150 2775 50  0000 L CNN
+F 1 "2N2219" H 7150 2700 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 2625 50  0001 L CIN
+F 3 "" H 6950 2700 50  0001 L CNN
+	1    6950 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q11
+U 1 1 5BC68785
+P 6950 3250
+F 0 "Q11" H 7150 3325 50  0000 L CNN
+F 1 "2N2219" H 7150 3250 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 3175 50  0001 L CIN
+F 3 "" H 6950 3250 50  0001 L CNN
+	1    6950 3250
+	-1   0    0    -1  
+$EndComp
+Text HLabel 6300 3850 2    60   Input ~ 0
+inp2
+$Comp
+L 2N2219 Q12
+U 1 1 5BC687C5
+P 6950 3800
+F 0 "Q12" H 7150 3875 50  0000 L CNN
+F 1 "2N2219" H 7150 3800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 3725 50  0001 L CIN
+F 3 "" H 6950 3800 50  0001 L CNN
+	1    6950 3800
+	-1   0    0    -1  
+$EndComp
+Text HLabel 4250 4050 0    60   Output ~ 0
+out15
+$Comp
+L 2N2219 Q5
+U 1 1 5BC687FD
+P 3650 3800
+F 0 "Q5" H 3850 3875 50  0000 L CNN
+F 1 "2N2219" H 3850 3800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 3725 50  0001 L CIN
+F 3 "" H 3650 3800 50  0001 L CNN
+	1    3650 3800
+	-1   0    0    -1  
+$EndComp
+Text HLabel 3000 4400 2    60   Input ~ 0
+inp2
+$Comp
+L 2N2219 Q6
+U 1 1 5BC6883B
+P 3650 4350
+F 0 "Q6" H 3850 4425 50  0000 L CNN
+F 1 "2N2219" H 3850 4350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 4275 50  0001 L CIN
+F 3 "" H 3650 4350 50  0001 L CNN
+	1    3650 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q7
+U 1 1 5BC68886
+P 3650 4900
+F 0 "Q7" H 3850 4975 50  0000 L CNN
+F 1 "2N2219" H 3850 4900 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 4825 50  0001 L CIN
+F 3 "" H 3650 4900 50  0001 L CNN
+	1    3650 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q8
+U 1 1 5BC688DB
+P 3650 5450
+F 0 "Q8" H 3850 5525 50  0000 L CNN
+F 1 "2N2219" H 3850 5450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3850 5375 50  0001 L CIN
+F 3 "" H 3650 5450 50  0001 L CNN
+	1    3650 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q13
+U 1 1 5BC6892C
+P 6950 4350
+F 0 "Q13" H 7150 4425 50  0000 L CNN
+F 1 "2N2219" H 7150 4350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 4275 50  0001 L CIN
+F 3 "" H 6950 4350 50  0001 L CNN
+	1    6950 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N2219 Q14
+U 1 1 5BC68981
+P 6950 4900
+F 0 "Q14" H 7150 4975 50  0000 L CNN
+F 1 "2N2219" H 7150 4900 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 4825 50  0001 L CIN
+F 3 "" H 6950 4900 50  0001 L CNN
+	1    6950 4900
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
