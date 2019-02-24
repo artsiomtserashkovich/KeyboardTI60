@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 395)
-    (no_connects 342)
+    (links 455)
+    (no_connects 368)
     (area 40.543706 48.275 384.020001 185.262381)
     (thickness 1.6)
     (drawings 1624)
     (tracks 0)
     (zones 0)
-    (modules 222)
+    (modules 252)
     (nets 145)
   )
 
@@ -62,7 +62,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -390,7 +390,7 @@
   )
 
   (module Diodes_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5C606570)
-    (at 59.436 99.06 180)
+    (at 60.452 100.076 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5BA94030/5C5008C1)
@@ -3425,16 +3425,16 @@
     )
   )
 
-  (module usb:67503 (layer B.Cu) (tedit 5C605567) (tstamp 5C606C28)
+  (module usb:67503 (layer B.Cu) (tedit 5C7280A6) (tstamp 5C606C28)
     (at 335.28 80.772 180)
     (descr http://www.tme.eu/pl/Document/af7e127923dc7f74ac659db082bbc882/mx54819.pdf)
     (tags 54819)
     (path /5C58B306)
     (attr smd)
-    (fp_text reference J1 (at 0 3.375 180) (layer B.SilkS)
+    (fp_text reference J1 (at 0.254 -0.762 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (fp_text value USBMINI_B05 (at -14.478 -1.524 180) (layer B.SilkS) hide
+    (fp_text value USBMINI_B05 (at -0.254 -9.652 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -2.159 -6.35) (end -3.81 -6.35) (layer B.SilkS) (width 0.20066))
@@ -3465,13 +3465,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605624) (tstamp 5C606C32)
-    (at 55 93.5 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72820F) (tstamp 5C606C32)
+    (at 55.1 93.4 180)
     (path /5C60C9B8/5C60D53D)
-    (fp_text reference LED1 (at 5.47 5.362 180) (layer F.SilkS) hide
+    (fp_text reference LED1 (at 4.63 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.69 5.362 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.15 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3489,13 +3489,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605613) (tstamp 5C606C3C)
-    (at 59.75 112.75 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7281F2) (tstamp 5C606C3C)
+    (at 59.9 112.49 180)
     (path /5C60C9B8/5C5F5025)
-    (fp_text reference LED2 (at 5.14 5.308 180) (layer F.SilkS) hide
+    (fp_text reference LED2 (at 4.85 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.512 5.054 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.2 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3513,13 +3513,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C6055FB) (tstamp 5C606C46)
-    (at 62.25 131.5 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7281E3) (tstamp 5C606C46)
+    (at 62.28 131.51 180)
     (path /5C60C9B8/5C5F2F07)
-    (fp_text reference LED3 (at 5.862 5.516 180) (layer F.SilkS) hide
+    (fp_text reference LED3 (at 4.89 4.9 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.552 5.262 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 4.99 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3537,13 +3537,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C6055F1) (tstamp 5C606C50)
-    (at 67 150.5 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7281B8) (tstamp 5C606C50)
+    (at 67.03 150.6 180)
     (path /5C60C9B8/5C5F505B)
-    (fp_text reference LED4 (at 5.278 5.212 180) (layer F.SilkS) hide
+    (fp_text reference LED4 (at 5.024 4.958 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.882 5.212 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.12 4.958 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3561,13 +3561,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C6055C9) (tstamp 5C606C5A)
-    (at 57.658 169.418 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728C49) (tstamp 5C606C5A)
+    (at 57.5 169.54 180)
     (path /5C60C9B8/5C5F3A59)
-    (fp_text reference LED5 (at 5.08 5.08 180) (layer F.SilkS) hide
+    (fp_text reference LED5 (at 4.958 5.118 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.572 5.334 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.142 5.118 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3585,13 +3585,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605630) (tstamp 5C606C64)
-    (at 74 93.5 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72821A) (tstamp 5C606C64)
+    (at 74.17 93.41 180)
     (path /5C60C9B8/5C5F5055)
-    (fp_text reference LED6 (at 5.674 5.362 180) (layer F.SilkS) hide
+    (fp_text reference LED6 (at 4.89 4.99 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.74 5.362 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.19 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3609,13 +3609,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605649) (tstamp 5C606C6E)
-    (at 83.65 112.19 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728231) (tstamp 5C606C6E)
+    (at 83.7 112.49 180)
     (path /5C60C9B8/5C5F2F37)
-    (fp_text reference LED7 (at 4.91 5.51 180) (layer F.SilkS) hide
+    (fp_text reference LED7 (at 4.87 5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.996 5.256 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3633,13 +3633,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605677) (tstamp 5C606C78)
-    (at 88.54 131.1 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728646) (tstamp 5C606C78)
+    (at 88.46 131.54 180)
     (path /5C60C9B8/5C5F508B)
-    (fp_text reference LED8 (at 5.228 4.862 180) (layer F.SilkS) hide
+    (fp_text reference LED8 (at 4.94 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.678 4.862 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.16 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3657,13 +3657,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C6055E0) (tstamp 5C606C82)
-    (at 98.07 150.61 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728ACB) (tstamp 5C606C82)
+    (at 97.99 150.61 180)
     (path /5C60C9B8/5C5F3A89)
-    (fp_text reference LED9 (at 5.36 4.814 180) (layer F.SilkS) hide
+    (fp_text reference LED9 (at 4.97 5.01 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.8 5.322 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.01 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3681,13 +3681,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C6055AC) (tstamp 5C606C8C)
-    (at 78.13 169.04 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728C6B) (tstamp 5C606C8C)
+    (at 78.96 169.62 180)
     (path /5C60C9B8/5C5F5091)
-    (fp_text reference LED10 (at 6.248 4.956 180) (layer F.SilkS) hide
+    (fp_text reference LED10 (at 5.63 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.674 5.21 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3705,13 +3705,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605639) (tstamp 5C606C96)
-    (at 93.5 93.04 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72828B) (tstamp 5C606C96)
+    (at 93.21 93.45 180)
     (path /5C60C9B8/5C5F2978)
-    (fp_text reference LED11 (at 5.87 5.156 180) (layer F.SilkS) hide
+    (fp_text reference LED11 (at 5.34 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.798 5.156 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.14 5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3729,13 +3729,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606CA0)
-    (at 102.72 112.88 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728256) (tstamp 5C606CA0)
+    (at 102.76 112.45 180)
     (path /5C60C9B8/5C5F2F31)
-    (fp_text reference LED12 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED12 (at 5.64 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3753,13 +3753,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606CAA)
-    (at 107.39 131.53 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728682) (tstamp 5C606CAA)
+    (at 107.51 131.49 180)
     (path /5C60C9B8/5C5F3A83)
-    (fp_text reference LED13 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED13 (at 5.59 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3777,13 +3777,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C6055DD) (tstamp 5C606CB4)
-    (at 116.99 150.69 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728ADC) (tstamp 5C606CB4)
+    (at 117.04 150.57 180)
     (path /5C60C9B8/5C5F3AB9)
-    (fp_text reference LED14 (at 5.992 5.148 180) (layer F.SilkS) hide
+    (fp_text reference LED14 (at 5.69 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.676 5.148 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3801,13 +3801,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605661) (tstamp 5C606CBE)
-    (at 100.55 169.35 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728C8F) (tstamp 5C606CBE)
+    (at 100.38 169.61 180)
     (path /5C60C9B8/5C5F50C1)
-    (fp_text reference LED15 (at 6.062 5.012 180) (layer F.SilkS) hide
+    (fp_text reference LED15 (at 5.65 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.606 5.266 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3825,13 +3825,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605640) (tstamp 5C606CC8)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728280) (tstamp 5C606CC8)
     (at 112.28 93.43 180)
     (path /5C60C9B8/5C5F504F)
-    (fp_text reference LED16 (at 6.362 5.292 180) (layer F.SilkS) hide
+    (fp_text reference LED16 (at 5.68 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.814 5.038 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3849,13 +3849,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606CD2)
-    (at 121.69 112.57 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72826D) (tstamp 5C606CD2)
+    (at 121.82 112.49 180)
     (path /5C60C9B8/5C5F5085)
-    (fp_text reference LED17 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED17 (at 5.6 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.14 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3873,13 +3873,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606CDC)
-    (at 127.38 131.27 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72869F) (tstamp 5C606CDC)
+    (at 126.57 131.54 180)
     (path /5C60C9B8/5C5F50BB)
-    (fp_text reference LED18 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED18 (at 5.68 5.17 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.12 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3897,13 +3897,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606CE6)
-    (at 135.51 150.77 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728B1C) (tstamp 5C606CE6)
+    (at 136.06 150.61 180)
     (path /5C60C9B8/5C5F50F1)
-    (fp_text reference LED19 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED19 (at 5.61 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.09 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3921,13 +3921,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C605666) (tstamp 5C606CF0)
-    (at 124.37 169.27 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728C9F) (tstamp 5C606CF0)
+    (at 124.22 169.57 180)
     (path /5C60C9B8/5C5F3ABF)
-    (fp_text reference LED20 (at 6.26 5.186 180) (layer F.SilkS) hide
+    (fp_text reference LED20 (at 5.67 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -4.408 5.186 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.03 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3945,13 +3945,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606CFA)
-    (at 131.7 93.09 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7282AC) (tstamp 5C606CFA)
+    (at 131.33 93.43 180)
     (path /5C60C9B8/5C5F2972)
-    (fp_text reference LED21 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED21 (at 5.31 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3969,13 +3969,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D04)
-    (at 141.2 112.37 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7284B2) (tstamp 5C606D04)
+    (at 140.87 112.46 180)
     (path /5C60C9B8/5C5F2F2B)
-    (fp_text reference LED22 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED22 (at 5.5 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -3993,13 +3993,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D0E)
-    (at 145.67 131.06 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7286C3) (tstamp 5C606D0E)
+    (at 145.61 131.57 180)
     (path /5C60C9B8/5C5F3A7D)
-    (fp_text reference LED23 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED23 (at 5.67 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4017,13 +4017,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D18)
-    (at 155.42 150.77 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728B2F) (tstamp 5C606D18)
+    (at 155.14 150.61 180)
     (path /5C60C9B8/5C5F50EB)
-    (fp_text reference LED24 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED24 (at 5.72 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.08 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4041,13 +4041,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D22)
-    (at 195.88 169.88 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728CF2) (tstamp 5C606D22)
+    (at 195.61 169.66 180)
     (path /5C60C9B8/5C5F50E5)
-    (fp_text reference LED25 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED25 (at 5.634 5.034 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.12 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4065,13 +4065,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D2C)
-    (at 150.24 93.7 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7282CA) (tstamp 5C606D2C)
+    (at 150.37 93.43 180)
     (path /5C60C9B8/5C5F5049)
-    (fp_text reference LED26 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED26 (at 5.7 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4089,13 +4089,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D36)
-    (at 160.29 112.81 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7284CF) (tstamp 5C606D36)
+    (at 159.9 112.43 180)
     (path /5C60C9B8/5C5F507F)
-    (fp_text reference LED27 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED27 (at 5.49 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4113,13 +4113,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D40)
-    (at 164.95 131.06 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7287FA) (tstamp 5C606D40)
+    (at 164.67 131.56 180)
     (path /5C60C9B8/5C5F50B5)
-    (fp_text reference LED28 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED28 (at 5.65 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4137,13 +4137,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D4A)
-    (at 174.5 150.57 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728B58) (tstamp 5C606D4A)
+    (at 174.18 150.54 180)
     (path /5C60C9B8/5C5F3AB3)
-    (fp_text reference LED29 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED29 (at 5.6 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4161,13 +4161,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D54)
-    (at 169.71 93.52 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7282E9) (tstamp 5C606D54)
+    (at 169.37 93.38 180)
     (path /5C60C9B8/5C5F296C)
-    (fp_text reference LED30 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED30 (at 5.64 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4185,13 +4185,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D5E)
-    (at 178.6 112.46 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7284F1) (tstamp 5C606D5E)
+    (at 178.96 112.51 180)
     (path /5C60C9B8/5C5F5079)
-    (fp_text reference LED31 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED31 (at 5.4 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4209,13 +4209,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D68)
-    (at 183.75 132.2 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72881C) (tstamp 5C606D68)
+    (at 183.73 131.46 180)
     (path /5C60C9B8/5C5F3A77)
-    (fp_text reference LED32 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED32 (at 5.55 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4233,13 +4233,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D72)
-    (at 193.04 151.13 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728B74) (tstamp 5C606D72)
+    (at 193.24 150.61 180)
     (path /5C60C9B8/5C5F3AAD)
-    (fp_text reference LED33 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED33 (at 5.64 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.06 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4257,13 +4257,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D7C)
-    (at 188.47 93.35 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728311) (tstamp 5C606D7C)
+    (at 188.46 93.4 180)
     (path /5C60C9B8/5C5F5043)
-    (fp_text reference LED34 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED34 (at 5.68 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4281,13 +4281,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D86)
-    (at 198.07 112.28 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728511) (tstamp 5C606D86)
+    (at 197.98 112.43 180)
     (path /5C60C9B8/5C5F2F25)
-    (fp_text reference LED35 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED35 (at 5.67 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4305,13 +4305,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D90)
-    (at 202.9 131.71 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728838) (tstamp 5C606D90)
+    (at 202.75 131.59 180)
     (path /5C60C9B8/5C5F50AF)
-    (fp_text reference LED36 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED36 (at 5.7 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4329,13 +4329,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606D9A)
-    (at 212.34 150.57 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728BCB) (tstamp 5C606D9A)
+    (at 212.29 150.61 180)
     (path /5C60C9B8/5C5F50DF)
-    (fp_text reference LED37 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED37 (at 5.44 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.16 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4353,13 +4353,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DA4)
-    (at 207.85 93.11 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72833D) (tstamp 5C606DA4)
+    (at 207.53 93.38 180)
     (path /5C60C9B8/5C5F2966)
-    (fp_text reference LED38 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED38 (at 5.68 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.12 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4377,13 +4377,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DAE)
-    (at 216.99 112.21 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72852A) (tstamp 5C606DAE)
+    (at 217.04 112.49 180)
     (path /5C60C9B8/5C5F2F1F)
-    (fp_text reference LED39 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED39 (at 5.69 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4401,13 +4401,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DB8)
-    (at 221.75 131.88 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728876) (tstamp 5C606DB8)
+    (at 221.84 131.49 180)
     (path /5C60C9B8/5C5F3A71)
-    (fp_text reference LED40 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED40 (at 5.65 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4425,13 +4425,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DC2)
-    (at 232.08 150.04 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728BED) (tstamp 5C606DC2)
+    (at 231.34 150.54 180)
     (path /5C60C9B8/5C5F3AA7)
-    (fp_text reference LED41 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED41 (at 5.38 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.12 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4449,13 +4449,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DCC)
-    (at 225.94 92.76 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72835F) (tstamp 5C606DCC)
+    (at 226.57 93.46 180)
     (path /5C60C9B8/5C5F503D)
-    (fp_text reference LED42 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED42 (at 5.55 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.16 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4473,13 +4473,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DD6)
-    (at 236.12 112.37 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728551) (tstamp 5C606DD6)
+    (at 236.09 112.49 180)
     (path /5C60C9B8/5C5F5073)
-    (fp_text reference LED43 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED43 (at 5.62 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.18 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4497,13 +4497,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DE0)
-    (at 241.2 131.88 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728866) (tstamp 5C606DE0)
+    (at 240.87 131.51 180)
     (path /5C60C9B8/5C5F50A9)
-    (fp_text reference LED44 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED44 (at 5.7 5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -0.6 -4.82 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4521,13 +4521,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DEA)
-    (at 250.14 150.16 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728C05) (tstamp 5C606DEA)
+    (at 250.39 150.61 180)
     (path /5C60C9B8/5C5F3A6B)
-    (fp_text reference LED45 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED45 (at 5.54 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.16 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4545,13 +4545,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DF4)
-    (at 245.65 93.26 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728377) (tstamp 5C606DF4)
+    (at 245.62 93.46 180)
     (path /5C60C9B8/5C5F277A)
-    (fp_text reference LED46 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED46 (at 5.65 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.06 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4569,13 +4569,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606DFE)
-    (at 255.02 112.37 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728575) (tstamp 5C606DFE)
+    (at 255.15 112.49 180)
     (path /5C60C9B8/5C5F2F19)
-    (fp_text reference LED47 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED47 (at 5.52 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.08 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4593,13 +4593,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E08)
-    (at 259.89 131.47 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728A7D) (tstamp 5C606E08)
+    (at 259.92 131.56 180)
     (path /5C60C9B8/5C5F506D)
-    (fp_text reference LED48 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED48 (at 5.69 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.21 5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4617,13 +4617,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E12)
-    (at 276.73 149.73 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728C1E) (tstamp 5C606E12)
+    (at 276.61 150.57 180)
     (path /5C60C9B8/5C5F50A3)
-    (fp_text reference LED49 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED49 (at 5.73 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.07 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4641,13 +4641,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E1C)
-    (at 264.61 169.05 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728D1F) (tstamp 5C606E1C)
+    (at 264.68 169.58 180)
     (path /5C60C9B8/5C5F3AA1)
-    (fp_text reference LED50 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED50 (at 5.61 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.09 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4665,13 +4665,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E26)
-    (at 264.54 93.43 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728390) (tstamp 5C606E26)
+    (at 264.68 93.5 180)
     (path /5C60C9B8/5C5F2774)
-    (fp_text reference LED51 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED51 (at 5.34 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.16 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4689,13 +4689,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E30)
-    (at 274.21 112.59 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728597) (tstamp 5C606E30)
+    (at 274.21 112.43 180)
     (path /5C60C9B8/5C5F5037)
-    (fp_text reference LED52 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED52 (at 5.61 4.99 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.09 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4713,13 +4713,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E3A)
-    (at 278.89 131.32 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728A97) (tstamp 5C606E3A)
+    (at 278.97 131.52 180)
     (path /5C60C9B8/5C5F2F13)
-    (fp_text reference LED53 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED53 (at 5.59 5.02 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4737,13 +4737,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E44)
-    (at 302.65 150.65 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728037) (tstamp 5C606E44)
+    (at 302.76 150.68 180)
     (path /5C60C9B8/5C5F5067)
-    (fp_text reference LED54 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED54 (at 5.978 5.108 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.436 5.108 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4761,13 +4761,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E4E)
-    (at 283.73 169.74 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728D4D) (tstamp 5C606E4E)
+    (at 283.77 169.62 180)
     (path /5C60C9B8/5C5F50D9)
-    (fp_text reference LED55 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED55 (at 5.63 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4785,13 +4785,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E58)
-    (at 283.65 93.43 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7283AD) (tstamp 5C606E58)
+    (at 283.69 93.47 180)
     (path /5C60C9B8/5C5F26B3)
-    (fp_text reference LED56 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED56 (at 5.65 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.15 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4809,13 +4809,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E62)
-    (at 293.09 112.49 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7285FA) (tstamp 5C606E62)
+    (at 293.2 112.49 180)
     (path /5C60C9B8/5C5F5031)
-    (fp_text reference LED57 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED57 (at 5.49 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4833,13 +4833,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E6C)
-    (at 309.8 131.6 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728AA5) (tstamp 5C606E6C)
+    (at 309.91 131.6 180)
     (path /5C60C9B8/5C5F3A95)
-    (fp_text reference LED58 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED58 (at 5.5 5 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4857,13 +4857,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E76)
-    (at 321.91 150.42 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C727FE4) (tstamp 5C606E76)
+    (at 321.81 150.57 180)
     (path /5C60C9B8/5C5F50CD)
-    (fp_text reference LED59 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED59 (at 5.68 4.878 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.226 4.878 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4881,13 +4881,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E80)
-    (at 302.7 169.53 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728D80) (tstamp 5C606E80)
+    (at 302.78 169.66 180)
     (path /5C60C9B8/5C5F3A65)
-    (fp_text reference LED60 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED60 (at 5.6 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4905,13 +4905,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E8A)
-    (at 312.39 93.61 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7283BA) (tstamp 5C606E8A)
+    (at 312.31 93.46 180)
     (path /5C60C9B8/5C5F3A5F)
-    (fp_text reference LED61 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED61 (at 5.29 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.11 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4929,13 +4929,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E94)
-    (at 317.02 112.73 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728620) (tstamp 5C606E94)
+    (at 317.06 112.49 180)
     (path /5C60C9B8/5C5F5097)
-    (fp_text reference LED62 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED62 (at 5.62 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.08 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4953,13 +4953,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606E9E)
-    (at 350.53 93.6 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7283D6) (tstamp 5C606E9E)
+    (at 350.42 93.49 180)
     (path /5C60C9B8/5C5F5061)
-    (fp_text reference LED63 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED63 (at 5.63 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.17 5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -4977,13 +4977,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606EA8)
-    (at 350.54 113.03 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72842F) (tstamp 5C606EA8)
+    (at 350.4 112.49 180)
     (path /5C60C9B8/5C5F2F0D)
-    (fp_text reference LED64 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED64 (at 5.64 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.16 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5001,13 +5001,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606EB2)
-    (at 321.8 169.44 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728D99) (tstamp 5C606EB2)
+    (at 321.81 169.57 180)
     (path /5C60C9B8/5C5F509D)
-    (fp_text reference LED65 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED65 (at 5.6 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5025,13 +5025,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606EBC)
-    (at 369.56 93.73 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C7283F1) (tstamp 5C606EBC)
+    (at 369.45 93.46 180)
     (path /5C60C9B8/5C5F502B)
-    (fp_text reference LED66 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED66 (at 5.66 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.14 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5049,13 +5049,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606EC6)
-    (at 369.3 113.03 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728409) (tstamp 5C606EC6)
+    (at 369.45 112.49 180)
     (path /5C60C9B8/5C5F264B)
-    (fp_text reference LED67 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED67 (at 5.4 5.03 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.1 5.13 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5073,13 +5073,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606ED0)
-    (at 350.47 169.71 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C728DC9) (tstamp 5C606ED0)
+    (at 350.41 169.62 180)
     (path /5C60C9B8/5C5F3A9B)
-    (fp_text reference LED68 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED68 (at 5.67 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5097,13 +5097,13 @@
     )
   )
 
-  (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 5C606EDA)
-    (at 369.37 169.55 180)
+  (module mx1a:MX1A-led (layer F.Cu) (tedit 5C72843D) (tstamp 5C606EDA)
+    (at 369.46 169.62 180)
     (path /5C60C9B8/5C5F50D3)
-    (fp_text reference LED69 (at 3.683 -5.969 180) (layer F.SilkS) hide
+    (fp_text reference LED69 (at 5.67 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value LED (at -4.13 5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5121,13 +5121,13 @@
     )
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606F03)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C72809C) (tstamp 5C606F03)
     (at 360.172 81.788 270)
     (path /5C4F5362/5C4F55EF)
-    (fp_text reference LED101 (at 0 -4.7 270) (layer F.SilkS)
+    (fp_text reference LED101 (at -0.762 -6.604 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 270) (layer F.SilkS) hide
+    (fp_text value WS2812B (at -2.032 -7.112 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5173,13 +5173,13 @@
       (net 100 /rgb-backlight/data_input))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606F2C)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C729859) (tstamp 5C606F2C)
     (at 291.084 81.788 270)
     (path /5C4F5362/5C4F559D)
-    (fp_text reference LED102 (at 0 -4.7 270) (layer F.SilkS)
+    (fp_text reference LED102 (at -0.598 -6.366 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 270) (layer F.SilkS) hide
+    (fp_text value WS2812B (at -1.888 -7.006 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5225,13 +5225,13 @@
       (net 99 "Net-(LED101-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606F55)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C729864) (tstamp 5C606F55)
     (at 212.344 81.788 270)
     (path /5C4F5362/5C4F5666)
-    (fp_text reference LED103 (at 0 -4.7 270) (layer F.SilkS)
+    (fp_text reference LED103 (at -0.368 -6.426 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 270) (layer F.SilkS) hide
+    (fp_text value WS2812B (at -1.768 -6.956 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5277,13 +5277,13 @@
       (net 101 "Net-(LED102-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606F7E)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C72987B) (tstamp 5C606F7E)
     (at 128.524 81.788 270)
     (path /5C4F5362/5C4F5697)
-    (fp_text reference LED104 (at 0 -4.7 270) (layer F.SilkS)
+    (fp_text reference LED104 (at -0.708 -6.696 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 270) (layer F.SilkS) hide
+    (fp_text value WS2812B (at -1.928 -7.146 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5329,13 +5329,13 @@
       (net 102 "Net-(LED103-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606FA7)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C729871) (tstamp 5C606FA7)
     (at 64.516 81.788 270)
     (path /5C4F5362/5C4F56C5)
-    (fp_text reference LED105 (at 0 -4.7 270) (layer F.SilkS)
+    (fp_text reference LED105 (at -0.408 -6.384 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 270) (layer F.SilkS) hide
+    (fp_text value WS2812B (at -1.858 -7.034 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5381,13 +5381,13 @@
       (net 103 "Net-(LED104-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606FD0)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C72988E) (tstamp 5C606FD0)
     (at 68.834 181.102 90)
     (path /5C4F5362/5C4F67ED)
-    (fp_text reference LED106 (at 0 -4.7 90) (layer F.SilkS)
+    (fp_text reference LED106 (at 0.502 6.546 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 90) (layer F.SilkS) hide
+    (fp_text value WS2812B (at 1.752 7.166 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5433,13 +5433,13 @@
       (net 104 "Net-(LED105-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C606FF9)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C729887) (tstamp 5C606FF9)
     (at 128.524 181.61 90)
     (path /5C4F5362/5C4F67E7)
-    (fp_text reference LED107 (at 0 -4.7 90) (layer F.SilkS)
+    (fp_text reference LED107 (at 0.66 6.706 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 90) (layer F.SilkS) hide
+    (fp_text value WS2812B (at 1.96 7.216 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5485,13 +5485,13 @@
       (net 105 "Net-(LED106-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C607022)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C728112) (tstamp 5C607022)
     (at 212.598 181.102 90)
     (path /5C4F5362/5C4F67E1)
-    (fp_text reference LED108 (at 0 -4.7 90) (layer F.SilkS)
+    (fp_text reference LED108 (at 0.762 6.604 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 90) (layer F.SilkS) hide
+    (fp_text value WS2812B (at 2.032 7.112 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5537,13 +5537,13 @@
       (net 106 "Net-(LED107-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C60704B)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C72989D) (tstamp 5C60704B)
     (at 288.036 181.356 90)
     (path /5C4F5362/5C4F67D5)
-    (fp_text reference LED109 (at 0 -4.7 90) (layer F.SilkS)
+    (fp_text reference LED109 (at 0.508 6.858 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 90) (layer F.SilkS) hide
+    (fp_text value WS2812B (at 1.926 7.294 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5589,13 +5589,13 @@
       (net 107 "Net-(LED108-Pad2)"))
   )
 
-  (module WS2812B:WS2812B (layer F.Cu) (tedit 53BEE615) (tstamp 5C607074)
+  (module WS2812B:WS2812B (layer F.Cu) (tedit 5C72984E) (tstamp 5C607074)
     (at 359.664 181.356 90)
     (path /5C4F5362/5C4F67DB)
-    (fp_text reference LED110 (at 0 -4.7 90) (layer F.SilkS)
+    (fp_text reference LED110 (at 0.336 7.046 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value WS2812B (at 0 4.8 90) (layer F.SilkS) hide
+    (fp_text value WS2812B (at 1.756 7.606 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.2))
@@ -5641,13 +5641,13 @@
       (net 108 "Net-(LED109-Pad2)"))
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C605627) (tstamp 5C607081)
-    (at 54.9 93.26 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728201) (tstamp 5C607081)
+    (at 55.1 93.4 180)
     (path /5BA94030/5BB119A7)
-    (fp_text reference S1 (at 5.878 -5.292 180) (layer F.SilkS) hide
+    (fp_text reference S1 (at 5.16 -5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.758 -5.292 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.76 -5.11 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5669,7 +5669,7 @@
   )
 
   (module mx1a:MX1A (layer F.Cu) (tedit 5C605611) (tstamp 5C60708E)
-    (at 59.91 112.9 180)
+    (at 59.9 112.5 180)
     (path /5BA94030/5BB11DA1)
     (fp_text reference S2 (at 5.554 -5.21 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -5695,13 +5695,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C605603) (tstamp 5C60709B)
-    (at 62.08 130.77 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7281D7) (tstamp 5C60709B)
+    (at 62.28 131.51 180)
     (path /5BA94030/5BB11FA3)
-    (fp_text reference S3 (at 5.946 -5.12 180) (layer F.SilkS) hide
+    (fp_text reference S3 (at 5.26 -5.17 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.182 -5.12 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.674 -5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5722,13 +5722,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C6055EE) (tstamp 5C6070A8)
-    (at 67.06 150.53 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7281AB) (tstamp 5C6070A8)
+    (at 67.03 150.6 180)
     (path /5BA94030/5BB12135)
-    (fp_text reference S4 (at 5.846 -5.426 180) (layer F.SilkS) hide
+    (fp_text reference S4 (at 5.338 -5.172 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.79 -5.426 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.774 -5.172 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5749,13 +5749,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C6055C7) (tstamp 5C6070B5)
-    (at 57.87 169.62 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728C5D) (tstamp 5C6070B5)
+    (at 57.53 169.62 180)
     (path /5BA94030/5BB12082)
-    (fp_text reference S5 (at 6.054 -5.386 180) (layer F.SilkS) hide
+    (fp_text reference S5 (at 5.27 -5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.836 -5.64 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.63 -5.08 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5776,13 +5776,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C605633) (tstamp 5C6070C2)
-    (at 74.168 93.472 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728487) (tstamp 5C6070C2)
+    (at 74.17 93.41 180)
     (path /5BA94030/5BB11B4C)
-    (fp_text reference S6 (at 6.096 -5.334 180) (layer F.SilkS) hide
+    (fp_text reference S6 (at 5.368 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.286 -5.08 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.632 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5803,13 +5803,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C60564B) (tstamp 5C6070CF)
-    (at 83.566 112.776 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72823E) (tstamp 5C6070CF)
+    (at 83.7 112.49 180)
     (path /5BA94030/5BB125E0)
-    (fp_text reference S7 (at 5.334 -4.826 180) (layer F.SilkS) hide
+    (fp_text reference S7 (at 5.176 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.286 -5.334 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.714 -5.094 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5830,13 +5830,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C605678) (tstamp 5C6070DC)
-    (at 88.646 131.064 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728651) (tstamp 5C6070DC)
+    (at 88.46 131.54 180)
     (path /5BA94030/5BB12427)
-    (fp_text reference S8 (at 5.588 -5.334 180) (layer F.SilkS) hide
+    (fp_text reference S8 (at 5.346 -5.136 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.032 -5.334 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.654 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5857,13 +5857,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C6055E4) (tstamp 5C6070E9)
-    (at 98.298 150.368 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728AD2) (tstamp 5C6070E9)
+    (at 97.99 150.61 180)
     (path /5BA94030/5BB12360)
-    (fp_text reference S9 (at 5.842 -5.08 180) (layer F.SilkS) hide
+    (fp_text reference S9 (at 5.298 -5.132 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -2.794 -5.334 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.702 -5.132 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5884,13 +5884,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 5C6055B2) (tstamp 5C6070F6)
-    (at 78.74 169.418 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728C75) (tstamp 5C6070F6)
+    (at 78.94 169.62 180)
     (path /5BA94030/5BB121DC)
-    (fp_text reference S10 (at 6.35 -5.334 180) (layer F.SilkS) hide
+    (fp_text reference S10 (at 6.04 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -3.048 -5.842 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.66 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5911,13 +5911,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607103)
-    (at 93.218 92.71 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728226) (tstamp 5C607103)
+    (at 93.21 93.46 180)
     (path /5BA94030/5BB129B5)
-    (fp_text reference S11 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S11 (at 5.848 -5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.752 -5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5938,13 +5938,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607110)
-    (at 103.124 112.776 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728252) (tstamp 5C607110)
+    (at 102.76 112.46 180)
     (path /5BA94030/5BB12B60)
-    (fp_text reference S12 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S12 (at 6.064 -5.134 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.786 -4.994 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5965,13 +5965,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60711D)
-    (at 107.696 131.826 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728671) (tstamp 5C60711D)
+    (at 107.51 131.49 180)
     (path /5BA94030/5BB12C97)
-    (fp_text reference S13 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S13 (at 5.996 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.704 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -5992,13 +5992,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60712A)
-    (at 116.84 150.876 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728AE8) (tstamp 5C60712A)
+    (at 117.04 150.57 180)
     (path /5BA94030/5BB12D92)
-    (fp_text reference S14 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S14 (at 6.04 -5.124 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.66 -5.124 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6019,13 +6019,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607137)
-    (at 100.076 169.418 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728C95) (tstamp 5C607137)
+    (at 100.39 169.62 180)
     (path /5BA94030/5BB12E65)
-    (fp_text reference S15 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S15 (at 6.076 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.724 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6046,13 +6046,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607144)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728277) (tstamp 5C607144)
     (at 112.268 93.472 180)
     (path /5BA94030/5BB12F6C)
-    (fp_text reference S16 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S16 (at 6.138 -5.098 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.722 -5.088 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6073,13 +6073,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607151)
-    (at 121.92 112.522 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728268) (tstamp 5C607151)
+    (at 121.8 112.5 180)
     (path /5BA94030/5BB1308F)
-    (fp_text reference S17 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S17 (at 6.04 -5.058 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.72 -5.028 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6100,13 +6100,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60715E)
-    (at 127.508 131.318 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728697) (tstamp 5C60715E)
+    (at 126.57 131.55 180)
     (path /5BA94030/5BB131B2)
-    (fp_text reference S18 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S18 (at 6.008 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.692 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6127,13 +6127,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60716B)
-    (at 136.144 150.368 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728B21) (tstamp 5C60716B)
+    (at 136.07 150.6 180)
     (path /5BA94030/5BB1329D)
-    (fp_text reference S19 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S19 (at 5.944 -5.132 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.656 -5.132 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6154,13 +6154,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607178)
-    (at 124.46 169.418 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728CC1) (tstamp 5C607178)
+    (at 124.21 169.58 180)
     (path /5BA94030/5BB13398)
-    (fp_text reference S20 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S20 (at 5.96 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.64 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6181,13 +6181,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607185)
-    (at 131.318 93.218 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7282A6) (tstamp 5C607185)
+    (at 131.32 93.43 180)
     (path /5BA94030/5BB134DB)
-    (fp_text reference S21 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S21 (at 5.728 -5.142 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.712 -5.072 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6208,13 +6208,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607192)
-    (at 141.478 111.76 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7284A5) (tstamp 5C607192)
+    (at 140.85 112.46 180)
     (path /5BA94030/5BB13626)
-    (fp_text reference S22 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S22 (at 5.978 -5.04 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.622 -5.14 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6235,13 +6235,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60719F)
-    (at 145.542 130.556 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7286BE) (tstamp 5C60719F)
+    (at 145.61 131.57 180)
     (path /5BA94030/5BB13769)
-    (fp_text reference S23 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S23 (at 6.042 -5.044 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.658 -5.044 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6262,13 +6262,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071AC)
-    (at 154.94 150.622 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728B46) (tstamp 5C6071AC)
+    (at 155.14 150.61 180)
     (path /5BA94030/5BB138B0)
-    (fp_text reference S24 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S24 (at 6.04 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.66 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6289,13 +6289,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071B9)
-    (at 195.834 169.926 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728D0B) (tstamp 5C6071B9)
+    (at 195.61 169.66 180)
     (path /5BA94030/5BB1480E)
-    (fp_text reference S25 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S25 (at 6.034 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.666 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6316,13 +6316,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071C6)
-    (at 150.114 93.218 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7282C5) (tstamp 5C6071C6)
+    (at 150.37 93.43 180)
     (path /5BA94030/5BB13B1E)
-    (fp_text reference S26 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S26 (at 6.064 -5.092 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.696 -5.052 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6343,13 +6343,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071D3)
-    (at 160.274 112.014 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7284C8) (tstamp 5C6071D3)
+    (at 159.9 112.43 180)
     (path /5BA94030/5BB13C59)
-    (fp_text reference S27 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S27 (at 5.874 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.726 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6370,13 +6370,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071E0)
-    (at 164.338 131.318 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7287F4) (tstamp 5C6071E0)
+    (at 164.67 131.56 180)
     (path /5BA94030/5BB13DBC)
-    (fp_text reference S28 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S28 (at 6.038 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.662 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6397,13 +6397,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071ED)
-    (at 174.244 150.368 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728B5D) (tstamp 5C6071ED)
+    (at 174.18 150.57 180)
     (path /5BA94030/5BB13EE7)
-    (fp_text reference S29 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S29 (at 6.044 -5.132 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.656 -5.032 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6424,13 +6424,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6071FA)
-    (at 169.418 93.218 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7282E3) (tstamp 5C6071FA)
+    (at 169.43 93.4 180)
     (path /5BA94030/5BB1416D)
-    (fp_text reference S30 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S30 (at 6.048 -5.092 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.692 -5.062 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6451,13 +6451,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607207)
-    (at 179.07 112.522 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7284EC) (tstamp 5C607207)
+    (at 178.96 112.51 180)
     (path /5BA94030/5BB142F4)
-    (fp_text reference S31 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S31 (at 5.87 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.73 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6478,13 +6478,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607214)
-    (at 183.896 131.572 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728817) (tstamp 5C607214)
+    (at 183.71 131.46 180)
     (path /5BA94030/5BB1443F)
-    (fp_text reference S32 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S32 (at 5.996 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.704 -5.028 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6505,13 +6505,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607221)
-    (at 193.548 150.622 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728B7B) (tstamp 5C607221)
+    (at 193.24 150.61 180)
     (path /5BA94030/5BB146DB)
-    (fp_text reference S33 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S33 (at 6.048 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.652 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6532,13 +6532,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60722E)
-    (at 188.722 93.472 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72830A) (tstamp 5C60722E)
+    (at 188.48 93.4 180)
     (path /5BA94030/5BB149D5)
-    (fp_text reference S34 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S34 (at 6.102 -5.058 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.678 -5.028 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6559,13 +6559,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60723B)
-    (at 198.12 112.522 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72850A) (tstamp 5C60723B)
+    (at 198 112.43 180)
     (path /5BA94030/5BB14BBC)
-    (fp_text reference S35 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S35 (at 6.02 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.68 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6586,13 +6586,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607248)
-    (at 202.438 132.08 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728833) (tstamp 5C607248)
+    (at 202.75 131.59 180)
     (path /5BA94030/5BB14EB7)
-    (fp_text reference S36 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S36 (at 6.038 -5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.662 -5.02 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6613,13 +6613,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607255)
-    (at 212.344 150.368 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728BD1) (tstamp 5C607255)
+    (at 212.29 150.61 180)
     (path /5BA94030/5BB15012)
-    (fp_text reference S37 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S37 (at 5.944 -5.132 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.656 -5.032 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6640,13 +6640,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607262)
-    (at 207.772 92.964 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728339) (tstamp 5C607262)
+    (at 207.53 93.38 180)
     (path /5BA94030/5BB15330)
-    (fp_text reference S38 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S38 (at 6.002 -5.096 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.658 -5.006 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6667,13 +6667,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60726F)
-    (at 216.916 112.522 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728526) (tstamp 5C60726F)
+    (at 217.04 112.47 180)
     (path /5BA94030/5BB154D3)
-    (fp_text reference S39 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S39 (at 6.016 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.684 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6694,13 +6694,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60727C)
-    (at 221.742 131.826 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728872) (tstamp 5C60727C)
+    (at 221.82 131.49 180)
     (path /5BA94030/5BB1567A)
-    (fp_text reference S40 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S40 (at 6.042 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.658 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6721,13 +6721,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607289)
-    (at 231.394 150.114 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728BE9) (tstamp 5C607289)
+    (at 231.34 150.54 180)
     (path /5BA94030/5BB15811)
-    (fp_text reference S41 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S41 (at 5.894 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.706 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6748,13 +6748,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607296)
-    (at 226.822 92.71 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728358) (tstamp 5C607296)
+    (at 226.57 93.46 180)
     (path /5BA94030/5BB15B0B)
-    (fp_text reference S42 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S42 (at 5.992 -5.1 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.668 -5.05 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6775,13 +6775,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072A3)
-    (at 235.966 112.014 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72854A) (tstamp 5C6072A3)
+    (at 236.09 112.49 180)
     (path /5BA94030/5BB15C86)
-    (fp_text reference S43 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S43 (at 6.066 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.734 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6802,13 +6802,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072B0)
-    (at 241.046 131.572 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72886A) (tstamp 5C6072B0)
+    (at 240.87 131.51 180)
     (path /5BA94030/5BB15E21)
-    (fp_text reference S44 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S44 (at 6.046 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -5.154 4.772 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6829,13 +6829,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072BD)
-    (at 250.444 150.622 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728C09) (tstamp 5C6072BD)
+    (at 250.39 150.61 180)
     (path /5BA94030/5BB15FD4)
-    (fp_text reference S45 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S45 (at 6.044 -5.178 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.656 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6856,13 +6856,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072CA)
-    (at 245.364 93.218 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728371) (tstamp 5C6072CA)
+    (at 245.62 93.46 180)
     (path /5BA94030/5BB16352)
-    (fp_text reference S46 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S46 (at 6.064 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.736 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6883,13 +6883,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072D7)
-    (at 255.27 112.522 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728570) (tstamp 5C6072D7)
+    (at 255.15 112.49 180)
     (path /5BA94030/5BB16519)
-    (fp_text reference S47 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S47 (at 5.87 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.73 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6910,13 +6910,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072E4)
-    (at 260.096 131.572 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72889A) (tstamp 5C6072E4)
+    (at 259.92 131.56 180)
     (path /5BA94030/5BB16840)
-    (fp_text reference S48 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S48 (at 5.996 -5.028 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.704 -5.028 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6937,13 +6937,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072F1)
-    (at 276.606 150.114 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728C24) (tstamp 5C6072F1)
+    (at 276.61 150.57 180)
     (path /5BA94030/5BB16CCB)
-    (fp_text reference S49 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S49 (at 6.106 -5.186 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.694 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6964,13 +6964,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6072FE)
-    (at 264.414 169.164 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728D2C) (tstamp 5C6072FE)
+    (at 264.68 169.6 180)
     (path /5BA94030/5BB17068)
-    (fp_text reference S50 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S50 (at 6.014 -5.136 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.686 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -6991,13 +6991,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60730B)
-    (at 264.922 92.964 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72838B) (tstamp 5C60730B)
+    (at 264.67 93.49 180)
     (path /5BA94030/5BB1738B)
-    (fp_text reference S51 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S51 (at 5.722 -5.136 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.678 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7018,13 +7018,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607318)
-    (at 274.066 112.522 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72858D) (tstamp 5C607318)
+    (at 274.2 112.45 180)
     (path /5BA94030/5BB1767A)
-    (fp_text reference S52 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S52 (at 5.966 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.634 -5.078 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7045,13 +7045,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607325)
-    (at 279.146 131.064 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728A8D) (tstamp 5C607325)
+    (at 278.97 131.52 180)
     (path /5BA94030/5BB186DD)
-    (fp_text reference S53 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S53 (at 6.046 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.754 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7072,13 +7072,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607332)
-    (at 303.022 150.622 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728031) (tstamp 5C607332)
+    (at 302.77 150.69 180)
     (path /5BA94030/5BB1939D)
-    (fp_text reference S54 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S54 (at 6.096 -5.334 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.778 -5.334 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7099,13 +7099,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60733F)
-    (at 283.718 169.926 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728D59) (tstamp 5C60733F)
+    (at 283.76 169.62 180)
     (path /5BA94030/5BB19C84)
-    (fp_text reference S55 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S55 (at 5.918 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.682 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7126,13 +7126,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60734C)
-    (at 283.718 92.71 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C72839B) (tstamp 5C60734C)
+    (at 283.73 93.46 180)
     (path /5BA94030/5BB17B8B)
-    (fp_text reference S56 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S56 (at 6.018 -5.09 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.682 -4.99 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7153,13 +7153,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607359)
-    (at 293.37 112.014 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728600) (tstamp 5C607359)
+    (at 293.2 112.49 180)
     (path /5BA94030/5BB18240)
-    (fp_text reference S57 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S57 (at 5.87 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.63 -5.086 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7180,13 +7180,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607366)
-    (at 309.626 131.572 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728AAE) (tstamp 5C607366)
+    (at 309.91 131.6 180)
     (path /5BA94030/5BB18D11)
-    (fp_text reference S58 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S58 (at 6.026 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.674 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7207,13 +7207,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607373)
-    (at 322.072 150.368 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C727FDF) (tstamp 5C607373)
+    (at 321.81 150.57 180)
     (path /5BA94030/5BB19570)
-    (fp_text reference S59 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S59 (at 6.096 -5.588 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.778 -5.588 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7234,13 +7234,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C607380)
-    (at 303.022 169.164 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728D72) (tstamp 5C607380)
+    (at 302.78 169.66 180)
     (path /5BA94030/5BB19ABD)
-    (fp_text reference S60 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S60 (at 6.022 -5.136 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.678 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7261,13 +7261,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60738D)
-    (at 312.42 93.472 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7283C8) (tstamp 5C60738D)
+    (at 312.31 93.46 180)
     (path /5BA94030/5BB18526)
-    (fp_text reference S61 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S61 (at 5.82 -5.128 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.68 -5.028 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7288,13 +7288,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C60739A)
-    (at 317.246 112.776 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728613) (tstamp 5C60739A)
+    (at 317.06 112.49 180)
     (path /5BA94030/5BB18860)
-    (fp_text reference S62 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S62 (at 5.846 -5.124 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.654 -5.024 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7315,13 +7315,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073A7)
-    (at 350.774 93.726 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7283E4) (tstamp 5C6073A7)
+    (at 350.4 93.47 180)
     (path /5BA94030/5BB183AF)
-    (fp_text reference S63 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S63 (at 6.074 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.726 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7342,13 +7342,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073B4)
-    (at 350.52 113.03 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728423) (tstamp 5C6073B4)
+    (at 350.4 112.49 180)
     (path /5BA94030/5BB18ECC)
-    (fp_text reference S64 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S64 (at 6.02 -5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.68 -5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7369,13 +7369,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073C1)
-    (at 321.818 169.164 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728DA8) (tstamp 5C6073C1)
+    (at 321.81 169.57 180)
     (path /5BA94030/5BB198EE)
-    (fp_text reference S65 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S65 (at 6.018 -5.136 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.682 -5.036 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7396,13 +7396,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073CE)
-    (at 369.57 93.726 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C7283FC) (tstamp 5C6073CE)
+    (at 369.44 93.47 180)
     (path /5BA94030/5BB18A0F)
-    (fp_text reference S66 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S66 (at 6.07 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.73 -5.074 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7423,13 +7423,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073DB)
-    (at 369.316 113.03 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728417) (tstamp 5C6073DB)
+    (at 369.45 112.49 180)
     (path /5BA94030/5BB18B8A)
-    (fp_text reference S67 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S67 (at 5.916 -5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.684 -5.07 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7450,13 +7450,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073E8)
-    (at 350.52 169.418 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728DD7) (tstamp 5C6073E8)
+    (at 350.41 169.62 180)
     (path /5BA94030/5BB191FE)
-    (fp_text reference S68 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S68 (at 6.02 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.68 -5.082 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7477,13 +7477,13 @@
     )
   )
 
-  (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5C6073F5)
-    (at 369.57 170.18 180)
+  (module mx1a:MX1A (layer F.Cu) (tedit 5C728E02) (tstamp 5C6073F5)
+    (at 369.46 169.62 180)
     (path /5BA94030/5BB19063)
-    (fp_text reference S69 (at -4.826 9.2075 180) (layer F.SilkS) hide
+    (fp_text reference S69 (at 5.97 -5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
+    (fp_text value MX1A (at -1.63 -5.12 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
@@ -7790,6 +7790,1086 @@
     (model ${KIPRJMOD}/lib/ndk.pretty/crystal-4pad.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.45 0.45 0.45))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705960)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C50EABA)
+    (attr smd)
+    (fp_text reference C1 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 121 "Net-(C1-Pad1)"))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705966)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C580BB8)
+    (attr smd)
+    (fp_text reference C2 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 22pf (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 123 "Net-(C2-Pad2)"))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C70596C)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C580CBE)
+    (attr smd)
+    (fp_text reference C3 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 22pf (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 122 "Net-(C3-Pad2)"))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705972)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C608F79)
+    (attr smd)
+    (fp_text reference C4 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 129 "Net-(C4-Pad2)"))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705978)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C5EEF99)
+    (attr smd)
+    (fp_text reference C5 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 142 "Net-(C5-Pad1)"))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C70597E)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C5F6F1C)
+    (attr smd)
+    (fp_text reference C6 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705984)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4F9B9D)
+    (attr smd)
+    (fp_text reference C101 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C70598A)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4F9B26)
+    (attr smd)
+    (fp_text reference C102 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705990)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4F9C07)
+    (attr smd)
+    (fp_text reference C103 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705996)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4F9C90)
+    (attr smd)
+    (fp_text reference C104 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C70599C)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4F9CF6)
+    (attr smd)
+    (fp_text reference C105 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C7059A2)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4FB2C0)
+    (attr smd)
+    (fp_text reference C106 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C7059A8)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4FB230)
+    (attr smd)
+    (fp_text reference C107 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C7059AE)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4FB33B)
+    (attr smd)
+    (fp_text reference C108 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C7059B4)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4FB3B1)
+    (attr smd)
+    (fp_text reference C109 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C7059BA)
+    (at 86.614 64.008)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /5C4F5362/5C4FB42E)
+    (attr smd)
+    (fp_text reference C110 (at 0 -1.75) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.1u (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 -1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059C0)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C583CEE)
+    (attr smd)
+    (fp_text reference R1 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 10k (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 117 "Net-(R1-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059C6)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C50D36F)
+    (attr smd)
+    (fp_text reference R2 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 22 (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 120 "Net-(R2-Pad1)"))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 85 /usb_d+))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059CC)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C50D676)
+    (attr smd)
+    (fp_text reference R3 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 22 (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 119 "Net-(R3-Pad1)"))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 86 /usb_d-))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059D2)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C5F64E5)
+    (attr smd)
+    (fp_text reference R4 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 127 "Net-(R4-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059D8)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C6895D0)
+    (attr smd)
+    (fp_text reference R5 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 118 "Net-(R5-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059DE)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C68A00B)
+    (attr smd)
+    (fp_text reference R6 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 128 "Net-(R6-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059E4)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C4FF9D5)
+    (attr smd)
+    (fp_text reference R7 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 500 (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 126 /rgb_bl))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 100 /rgb-backlight/data_input))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059EA)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C5F33E7)
+    (attr smd)
+    (fp_text reference R8 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 144 "Net-(R8-Pad1)"))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059F0)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C6014FC)
+    (attr smd)
+    (fp_text reference R9 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 125 /i2c_sda))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059F6)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C6015EB)
+    (attr smd)
+    (fp_text reference R10 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 124 /i2c_scl))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7059FC)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C5F5FFC)
+    (attr smd)
+    (fp_text reference R11 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 132 "Net-(R11-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C705A02)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C5FAAE6)
+    (attr smd)
+    (fp_text reference R12 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 131 "Net-(R12-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C705A08)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C5FA03C)
+    (attr smd)
+    (fp_text reference R13 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 87 VCC))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 130 "Net-(R13-Pad2)"))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C705A0E)
+    (at 86.614 64.008)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (path /5C4F5362/5C6989B6)
+    (attr smd)
+    (fp_text reference R100 (at 0 -1.7) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 20K (at 0 1.75) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.35 -0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.35 -0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end 2.35 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.35 0.9) (end -2.35 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 109 "Net-(LED110-Pad2)"))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 89 GND))
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
