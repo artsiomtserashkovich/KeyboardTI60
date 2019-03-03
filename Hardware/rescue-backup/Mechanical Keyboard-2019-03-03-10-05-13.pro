@@ -1,4 +1,4 @@
-update=03.03.2019 10:05:50
+update=09.02.2019 20:21:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,4 +37,17 @@ SpiceUseNetNumbers=0
 LabSize=157
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../Новая папка/gh60/lib
+[eeschema/libraries]
+LibName1=libs/mx1a-simple
+LibName2=diode
+LibName3=device
+LibName4=libs/atmega32u4
+LibName5=power
+LibName6=atmel
+LibName7=libs/ai03-locallib
+LibName8=libs/WS2812B.pretty-master/Schematic-Symbol/ws2812b
+LibName9=libs/conn
+LibName10=libs/oupiin_usb
+LibName11=libs/aker
+LibName12=libs/dtsjw

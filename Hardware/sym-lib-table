@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name Mechanical-Keyboard-rescue)(type Legacy)(uri "${KIPRJMOD}/Mechanical Keyboard-rescue.lib")(options "")(descr ""))
+  (lib (name mx1a-simple)(type Legacy)(uri ${KIPRJMOD}/libs/mx1a-simple.lib)(options "")(descr ""))
+  (lib (name atmega32u4)(type Legacy)(uri ${KIPRJMOD}/libs/atmega32u4.lib)(options "")(descr ""))
+  (lib (name ai03-locallib)(type Legacy)(uri ${KIPRJMOD}/libs/ai03-locallib.lib)(options "")(descr ""))
+  (lib (name ws2812b)(type Legacy)(uri ${KIPRJMOD}/libs/WS2812B.pretty-master/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
+  (lib (name conn)(type Legacy)(uri ${KIPRJMOD}/libs/conn.lib)(options "")(descr ""))
+  (lib (name oupiin_usb)(type Legacy)(uri ${KIPRJMOD}/libs/oupiin_usb.lib)(options "")(descr ""))
+  (lib (name aker)(type Legacy)(uri ${KIPRJMOD}/libs/aker.lib)(options "")(descr ""))
+  (lib (name dtsjw)(type Legacy)(uri ${KIPRJMOD}/libs/dtsjw.lib)(options "")(descr ""))
+)
