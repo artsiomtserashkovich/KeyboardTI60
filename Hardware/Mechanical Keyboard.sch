@@ -861,11 +861,11 @@ Text Label 5800 6200 0    60   ~ 0
 swm_col2
 Text Label 5800 5400 0    60   ~ 0
 swm_col3
-Text Label 5800 4700 0    60   ~ 0
+Text Label 5800 6600 0    60   ~ 0
 swm_col4
 Text Label 5800 5300 0    60   ~ 0
 swm_col5
-Text Label 5800 6600 0    60   ~ 0
+Text Label 5800 4700 0    60   ~ 0
 swm_col9
 Text Label 5800 6500 0    60   ~ 0
 swm_col11
@@ -996,23 +996,23 @@ Wire Wire Line
 	13950 4500 14250 4500
 Wire Wire Line
 	13150 4000 12800 4000
-Text Label 13150 3800 2    60   ~ 0
-led_ca1
-Text Label 13150 3900 2    60   ~ 0
-led_ca2
-Text Label 13150 4000 2    60   ~ 0
-led_ca3
 Text Label 13150 4100 2    60   ~ 0
-led_ca4
-Text Label 13150 4200 2    60   ~ 0
-led_ca5
-Text Label 13150 4300 2    60   ~ 0
-led_ca6
-Text Label 13150 4400 2    60   ~ 0
-led_ca7
-Text Label 13150 4500 2    60   ~ 0
-led_ca8
+led_ca1
 Text Label 14250 4500 2    60   ~ 0
+led_ca2
+Text Label 13150 4300 2    60   ~ 0
+led_ca3
+Text Label 13150 3900 2    60   ~ 0
+led_ca4
+Text Label 13150 4000 2    60   ~ 0
+led_ca5
+Text Label 13150 4400 2    60   ~ 0
+led_ca6
+Text Label 13150 4500 2    60   ~ 0
+led_ca7
+Text Label 13150 3800 2    60   ~ 0
+led_ca8
+Text Label 13150 4200 2    60   ~ 0
 led_ca9
 Wire Wire Line
 	2350 4800 2350 4900
