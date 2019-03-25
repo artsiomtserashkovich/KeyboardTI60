@@ -7931,7 +7931,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5C705978)
-    (at 348.889 144.653)
+    (at 348.508 144.7038)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C5EEF99)
@@ -8651,7 +8651,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C7CEFEF)
-    (at 338.5058 132.9944 180)
+    (at 338.502 133.2738 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C6015EB)
@@ -8687,7 +8687,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58E0A804) (tstamp 5C7CF565)
-    (at 348.869 148.463 180)
+    (at 348.568 148.4884 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C5F5FFC)
@@ -8759,7 +8759,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5C705A08)
-    (at 348.441 154.305 180)
+    (at 348.535 154.3304 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C5FA03C)
@@ -12889,7 +12889,6 @@
   (segment (start 327.33 119.65) (end 326.26 120.72) (width 0.6) (layer F.Cu) (net 97))
   (segment (start 326.26 120.72) (end 326.26 122.05) (width 0.6) (layer F.Cu) (net 97))
   (via (at 326.26 122.05) (size 0.4) (drill 0.3) (layers F.Cu B.Cu) (net 97))
-  (segment (start 331.2 156.3) (end 331.724 156.3) (width 0.3) (layer F.Cu) (net 97))
   (segment (start 332.44 156.3) (end 335.09 156.3) (width 0.3) (layer F.Cu) (net 97))
   (segment (start 294.905457 80.146024) (end 360.054024 80.146024) (width 0.6) (layer F.Cu) (net 98))
   (segment (start 363.549015 83.641015) (end 366.855219 83.641015) (width 0.6) (layer F.Cu) (net 98))
@@ -13520,6 +13519,7 @@
   (via (at 331.724 156.3) (size 0.4) (drill 0.3) (layers F.Cu B.Cu) (net 97))
   (segment (start 331.724 127.514) (end 331.724 156.3) (width 0.3) (layer B.Cu) (net 97))
   (segment (start 326.26 122.05) (end 331.724 127.514) (width 0.3) (layer B.Cu) (net 97))
+  (segment (start 331.2 156.3) (end 331.724 156.3) (width 0.6) (layer F.Cu) (net 97))
   (segment (start 344.50001 103.35) (end 357.858 103.35) (width 0.6) (layer B.Cu) (net 110))
   (segment (start 357.858 103.35) (end 361.795 103.35) (width 0.6) (layer B.Cu) (net 110))
   (segment (start 361.795 103.35) (end 361.795 103.35) (width 0.6) (layer B.Cu) (net 110) (tstamp 5C97C773))
