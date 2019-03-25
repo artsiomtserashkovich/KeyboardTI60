@@ -1150,8 +1150,6 @@ Wire Wire Line
 	5700 2700 6250 2700
 Connection ~ 6250 2700
 Wire Wire Line
-	6450 5550 6700 5550
-Wire Wire Line
 	6450 4150 6700 4150
 Connection ~ 6700 4150
 Wire Wire Line
@@ -1506,5 +1504,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 3450 5500 4150
 Wire Wire Line
-	6700 4850 6700 6450
+	6700 4850 6700 5550
+Wire Wire Line
+	6450 5550 6700 5550
+Connection ~ 6700 5550
+Wire Wire Line
+	6700 5550 6700 6450
 $EndSCHEMATC

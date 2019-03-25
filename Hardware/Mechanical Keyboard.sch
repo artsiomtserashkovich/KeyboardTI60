@@ -878,7 +878,7 @@ swm_row3
 Text Label 5800 5500 0    60   ~ 0
 swm_row2
 Text Label 5800 4600 0    60   ~ 0
-swm_co11
+swm_col11
 Text Label 5800 4300 0    60   ~ 0
 swm_col13
 Text Label 5800 4200 0    60   ~ 0
