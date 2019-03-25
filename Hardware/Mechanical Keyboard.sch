@@ -856,35 +856,35 @@ swm_col13
 Text Label 10000 4900 0    60   ~ 0
 swm_col14
 Text Label 5800 5200 0    60   ~ 0
-swm_col1
+swm_col12
 Text Label 5800 6200 0    60   ~ 0
-swm_col2
+swm_col1
 Text Label 5800 5400 0    60   ~ 0
-swm_col3
+swm_col14
 Text Label 5800 6600 0    60   ~ 0
-swm_col4
+swm_col7
 Text Label 5800 5300 0    60   ~ 0
-swm_col5
+swm_row1
 Text Label 5800 4700 0    60   ~ 0
 swm_col9
 Text Label 5800 6500 0    60   ~ 0
-swm_col11
+swm_col5
 Text Label 5800 6400 0    60   ~ 0
-swm_col13
+swm_col3
 Text Label 5800 6100 0    60   ~ 0
 swm_col15
 Text Label 5800 5600 0    60   ~ 0
-swm_col14
+swm_row3
 Text Label 5800 5500 0    60   ~ 0
-swm_col7
+swm_row2
 Text Label 5800 4600 0    60   ~ 0
-swm_col6
+swm_co11
 Text Label 5800 4300 0    60   ~ 0
-swm_col8
+swm_col13
 Text Label 5800 4200 0    60   ~ 0
-swm_col10
+swm_row5
 Text Label 5800 4100 0    60   ~ 0
-swm_col12
+swm_row4
 Text Label 8500 3600 2    60   ~ 0
 swm_row1
 Text Label 8500 3700 2    60   ~ 0
@@ -896,15 +896,15 @@ swm_row4
 Text Label 8500 4000 2    60   ~ 0
 swm_row5
 Text Label 5800 3700 0    60   ~ 0
-swm_row1
+swm_col2
 Text Label 5800 3800 0    60   ~ 0
-swm_row2
+swm_col4
 Text Label 5800 3900 0    60   ~ 0
-swm_row3
+swm_col6
 Text Label 5800 4000 0    60   ~ 0
-swm_row4
+swm_col8
 Text Label 5800 4400 0    60   ~ 0
-swm_row5
+swm_col10
 Text Label 11200 5900 2    60   ~ 0
 rgb_bl
 Text Label 5900 5100 0    60   ~ 0

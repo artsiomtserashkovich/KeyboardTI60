@@ -861,11 +861,11 @@ Text Label 5800 6200 0    60   ~ 0
 swm_col2
 Text Label 5800 5400 0    60   ~ 0
 swm_col3
-Text Label 5800 4700 0    60   ~ 0
+Text Label 5800 6600 0    60   ~ 0
 swm_col4
 Text Label 5800 5300 0    60   ~ 0
 swm_col5
-Text Label 5800 6600 0    60   ~ 0
+Text Label 5800 4700 0    60   ~ 0
 swm_col9
 Text Label 5800 6500 0    60   ~ 0
 swm_col11
