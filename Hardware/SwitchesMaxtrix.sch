@@ -808,7 +808,7 @@ col14
 Text HLabel 14800 2000 1    60   Input ~ 0
 col15
 $Comp
-L Diode:1N4148 D1
+L Mechanical-Keyboard-rescue:1N4148-Diode D1
 U 1 1 5C5008C1
 P 800 3100
 F 0 "D1" H 800 3200 50  0000 C CNN
@@ -819,7 +819,7 @@ F 3 "" H 800 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D2
+L Mechanical-Keyboard-rescue:1N4148-Diode D2
 U 1 1 5C50148F
 P 800 3850
 F 0 "D2" H 800 3950 50  0000 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 800 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D3
+L Mechanical-Keyboard-rescue:1N4148-Diode D3
 U 1 1 5C50169A
 P 800 4550
 F 0 "D3" H 800 4650 50  0000 C CNN
@@ -841,7 +841,7 @@ F 3 "" H 800 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D4
+L Mechanical-Keyboard-rescue:1N4148-Diode D4
 U 1 1 5C50182E
 P 800 5300
 F 0 "D4" H 800 5400 50  0000 C CNN
@@ -852,7 +852,7 @@ F 3 "" H 800 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D52
+L Mechanical-Keyboard-rescue:1N4148-Diode D52
 U 1 1 5C50192B
 P 11950 3850
 F 0 "D52" H 11950 3950 50  0000 C CNN
@@ -863,7 +863,7 @@ F 3 "" H 11950 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D5
+L Mechanical-Keyboard-rescue:1N4148-Diode D5
 U 1 1 5C501ABF
 P 800 6100
 F 0 "D5" H 800 6200 50  0000 C CNN
@@ -874,7 +874,7 @@ F 3 "" H 800 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D6
+L Mechanical-Keyboard-rescue:1N4148-Diode D6
 U 1 1 5C501BCA
 P 1800 3100
 F 0 "D6" H 1800 3200 50  0000 C CNN
@@ -885,7 +885,7 @@ F 3 "" H 1800 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D7
+L Mechanical-Keyboard-rescue:1N4148-Diode D7
 U 1 1 5C501D08
 P 1800 3850
 F 0 "D7" H 1800 3950 50  0000 C CNN
@@ -896,7 +896,7 @@ F 3 "" H 1800 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D8
+L Mechanical-Keyboard-rescue:1N4148-Diode D8
 U 1 1 5C501E33
 P 1800 4550
 F 0 "D8" H 1800 4650 50  0000 C CNN
@@ -907,7 +907,7 @@ F 3 "" H 1800 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D9
+L Mechanical-Keyboard-rescue:1N4148-Diode D9
 U 1 1 5C501F59
 P 1800 5300
 F 0 "D9" H 1800 5400 50  0000 C CNN
@@ -918,7 +918,7 @@ F 3 "" H 1800 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D10
+L Mechanical-Keyboard-rescue:1N4148-Diode D10
 U 1 1 5C502078
 P 1800 6100
 F 0 "D10" H 1800 6200 50  0000 C CNN
@@ -929,7 +929,7 @@ F 3 "" H 1800 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D11
+L Mechanical-Keyboard-rescue:1N4148-Diode D11
 U 1 1 5C50219A
 P 2850 3100
 F 0 "D11" H 2850 3200 50  0000 C CNN
@@ -940,7 +940,7 @@ F 3 "" H 2850 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D12
+L Mechanical-Keyboard-rescue:1N4148-Diode D12
 U 1 1 5C5022CD
 P 2850 3850
 F 0 "D12" H 2850 3950 50  0000 C CNN
@@ -951,7 +951,7 @@ F 3 "" H 2850 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D13
+L Mechanical-Keyboard-rescue:1N4148-Diode D13
 U 1 1 5C502405
 P 2850 4550
 F 0 "D13" H 2850 4650 50  0000 C CNN
@@ -962,7 +962,7 @@ F 3 "" H 2850 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D14
+L Mechanical-Keyboard-rescue:1N4148-Diode D14
 U 1 1 5C502538
 P 2850 5300
 F 0 "D14" H 2850 5400 50  0000 C CNN
@@ -973,7 +973,7 @@ F 3 "" H 2850 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D15
+L Mechanical-Keyboard-rescue:1N4148-Diode D15
 U 1 1 5C5026C2
 P 2850 6100
 F 0 "D15" H 2850 6200 50  0000 C CNN
@@ -984,7 +984,7 @@ F 3 "" H 2850 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D16
+L Mechanical-Keyboard-rescue:1N4148-Diode D16
 U 1 1 5C502938
 P 3850 3100
 F 0 "D16" H 3850 3200 50  0000 C CNN
@@ -995,7 +995,7 @@ F 3 "" H 3850 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D17
+L Mechanical-Keyboard-rescue:1N4148-Diode D17
 U 1 1 5C502B36
 P 3850 3850
 F 0 "D17" H 3850 3950 50  0000 C CNN
@@ -1006,7 +1006,7 @@ F 3 "" H 3850 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D18
+L Mechanical-Keyboard-rescue:1N4148-Diode D18
 U 1 1 5C502C77
 P 3850 4550
 F 0 "D18" H 3850 4650 50  0000 C CNN
@@ -1017,7 +1017,7 @@ F 3 "" H 3850 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D19
+L Mechanical-Keyboard-rescue:1N4148-Diode D19
 U 1 1 5C502DAF
 P 3850 5300
 F 0 "D19" H 3850 5400 50  0000 C CNN
@@ -1028,7 +1028,7 @@ F 3 "" H 3850 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D20
+L Mechanical-Keyboard-rescue:1N4148-Diode D20
 U 1 1 5C502EDE
 P 3850 6100
 F 0 "D20" H 3850 6200 50  0000 C CNN
@@ -1039,7 +1039,7 @@ F 3 "" H 3850 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D21
+L Mechanical-Keyboard-rescue:1N4148-Diode D21
 U 1 1 5C50300E
 P 4850 3100
 F 0 "D21" H 4850 3200 50  0000 C CNN
@@ -1050,7 +1050,7 @@ F 3 "" H 4850 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D22
+L Mechanical-Keyboard-rescue:1N4148-Diode D22
 U 1 1 5C503159
 P 4850 3850
 F 0 "D22" H 4850 3950 50  0000 C CNN
@@ -1061,7 +1061,7 @@ F 3 "" H 4850 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D23
+L Mechanical-Keyboard-rescue:1N4148-Diode D23
 U 1 1 5C503299
 P 4850 4550
 F 0 "D23" H 4850 4650 50  0000 C CNN
@@ -1072,7 +1072,7 @@ F 3 "" H 4850 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D24
+L Mechanical-Keyboard-rescue:1N4148-Diode D24
 U 1 1 5C5033DE
 P 4850 5300
 F 0 "D24" H 4850 5400 50  0000 C CNN
@@ -1083,7 +1083,7 @@ F 3 "" H 4850 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D25
+L Mechanical-Keyboard-rescue:1N4148-Diode D25
 U 1 1 5C503B2A
 P 6900 6100
 F 0 "D25" H 6900 6200 50  0000 C CNN
@@ -1094,7 +1094,7 @@ F 3 "" H 6900 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D33
+L Mechanical-Keyboard-rescue:1N4148-Diode D33
 U 1 1 5C503C5D
 P 6900 5300
 F 0 "D33" H 6900 5400 50  0000 C CNN
@@ -1105,7 +1105,7 @@ F 3 "" H 6900 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D29
+L Mechanical-Keyboard-rescue:1N4148-Diode D29
 U 1 1 5C503D95
 P 5850 5300
 F 0 "D29" H 5850 5400 50  0000 C CNN
@@ -1116,7 +1116,7 @@ F 3 "" H 5850 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D37
+L Mechanical-Keyboard-rescue:1N4148-Diode D37
 U 1 1 5C503ED0
 P 7900 5300
 F 0 "D37" H 7900 5400 50  0000 C CNN
@@ -1127,7 +1127,7 @@ F 3 "" H 7900 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D41
+L Mechanical-Keyboard-rescue:1N4148-Diode D41
 U 1 1 5C504012
 P 8900 5300
 F 0 "D41" H 8900 5400 50  0000 C CNN
@@ -1138,7 +1138,7 @@ F 3 "" H 8900 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D45
+L Mechanical-Keyboard-rescue:1N4148-Diode D45
 U 1 1 5C50421F
 P 9900 5300
 F 0 "D45" H 9900 5400 50  0000 C CNN
@@ -1149,7 +1149,7 @@ F 3 "" H 9900 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D50
+L Mechanical-Keyboard-rescue:1N4148-Diode D50
 U 1 1 5C504369
 P 10950 6100
 F 0 "D50" H 10950 6200 50  0000 C CNN
@@ -1160,7 +1160,7 @@ F 3 "" H 10950 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D49
+L Mechanical-Keyboard-rescue:1N4148-Diode D49
 U 1 1 5C5044B6
 P 10950 5300
 F 0 "D49" H 10950 5400 50  0000 C CNN
@@ -1171,7 +1171,7 @@ F 3 "" H 10950 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D55
+L Mechanical-Keyboard-rescue:1N4148-Diode D55
 U 1 1 5C504742
 P 11950 6100
 F 0 "D55" H 11950 6200 50  0000 C CNN
@@ -1182,7 +1182,7 @@ F 3 "" H 11950 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D54
+L Mechanical-Keyboard-rescue:1N4148-Diode D54
 U 1 1 5C504995
 P 11950 5300
 F 0 "D54" H 11950 5400 50  0000 C CNN
@@ -1193,7 +1193,7 @@ F 3 "" H 11950 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D60
+L Mechanical-Keyboard-rescue:1N4148-Diode D60
 U 1 1 5C504AF7
 P 12950 6100
 F 0 "D60" H 12950 6200 50  0000 C CNN
@@ -1204,7 +1204,7 @@ F 3 "" H 12950 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D65
+L Mechanical-Keyboard-rescue:1N4148-Diode D65
 U 1 1 5C504DC9
 P 13950 6100
 F 0 "D65" H 13950 6200 50  0000 C CNN
@@ -1215,7 +1215,7 @@ F 3 "" H 13950 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D59
+L Mechanical-Keyboard-rescue:1N4148-Diode D59
 U 1 1 5C504F45
 P 12950 5300
 F 0 "D59" H 12950 5400 50  0000 C CNN
@@ -1226,7 +1226,7 @@ F 3 "" H 12950 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D68
+L Mechanical-Keyboard-rescue:1N4148-Diode D68
 U 1 1 5C5050F0
 P 13950 5300
 F 0 "D68" H 13950 5400 50  0000 C CNN
@@ -1237,7 +1237,7 @@ F 3 "" H 13950 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D69
+L Mechanical-Keyboard-rescue:1N4148-Diode D69
 U 1 1 5C505274
 P 15000 5300
 F 0 "D69" H 15000 5400 50  0000 C CNN
@@ -1248,7 +1248,7 @@ F 3 "" H 15000 5300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D36
+L Mechanical-Keyboard-rescue:1N4148-Diode D36
 U 1 1 5C5053EF
 P 7900 4550
 F 0 "D36" H 7900 4650 50  0000 C CNN
@@ -1259,7 +1259,7 @@ F 3 "" H 7900 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D40
+L Mechanical-Keyboard-rescue:1N4148-Diode D40
 U 1 1 5C50556F
 P 8900 4550
 F 0 "D40" H 8900 4650 50  0000 C CNN
@@ -1270,7 +1270,7 @@ F 3 "" H 8900 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D44
+L Mechanical-Keyboard-rescue:1N4148-Diode D44
 U 1 1 5C5056E4
 P 9900 4550
 F 0 "D44" H 9900 4650 50  0000 C CNN
@@ -1281,7 +1281,7 @@ F 3 "" H 9900 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D48
+L Mechanical-Keyboard-rescue:1N4148-Diode D48
 U 1 1 5C50586E
 P 10950 4550
 F 0 "D48" H 10950 4650 50  0000 C CNN
@@ -1292,7 +1292,7 @@ F 3 "" H 10950 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D53
+L Mechanical-Keyboard-rescue:1N4148-Diode D53
 U 1 1 5C505ADD
 P 11950 4550
 F 0 "D53" H 11950 4650 50  0000 C CNN
@@ -1303,7 +1303,7 @@ F 3 "" H 11950 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D58
+L Mechanical-Keyboard-rescue:1N4148-Diode D58
 U 1 1 5C505C65
 P 12950 4550
 F 0 "D58" H 12950 4650 50  0000 C CNN
@@ -1314,7 +1314,7 @@ F 3 "" H 12950 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D64
+L Mechanical-Keyboard-rescue:1N4148-Diode D64
 U 1 1 5C505DFA
 P 13950 4550
 F 0 "D64" H 13950 4650 50  0000 C CNN
@@ -1325,7 +1325,7 @@ F 3 "" H 13950 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D67
+L Mechanical-Keyboard-rescue:1N4148-Diode D67
 U 1 1 5C50633E
 P 15000 4550
 F 0 "D67" H 15000 4650 50  0000 C CNN
@@ -1336,7 +1336,7 @@ F 3 "" H 15000 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D28
+L Mechanical-Keyboard-rescue:1N4148-Diode D28
 U 1 1 5C5074BF
 P 5850 4550
 F 0 "D28" H 5850 4650 50  0000 C CNN
@@ -1347,7 +1347,7 @@ F 3 "" H 5850 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D27
+L Mechanical-Keyboard-rescue:1N4148-Diode D27
 U 1 1 5C50774B
 P 5850 3850
 F 0 "D27" H 5850 3950 50  0000 C CNN
@@ -1358,7 +1358,7 @@ F 3 "" H 5850 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D31
+L Mechanical-Keyboard-rescue:1N4148-Diode D31
 U 1 1 5C5078CA
 P 6900 3850
 F 0 "D31" H 6900 3950 50  0000 C CNN
@@ -1369,7 +1369,7 @@ F 3 "" H 6900 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D32
+L Mechanical-Keyboard-rescue:1N4148-Diode D32
 U 1 1 5C507A4A
 P 6900 4550
 F 0 "D32" H 6900 4650 50  0000 C CNN
@@ -1380,7 +1380,7 @@ F 3 "" H 6900 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D26
+L Mechanical-Keyboard-rescue:1N4148-Diode D26
 U 1 1 5C507CC5
 P 5850 3100
 F 0 "D26" H 5850 3200 50  0000 C CNN
@@ -1391,7 +1391,7 @@ F 3 "" H 5850 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D34
+L Mechanical-Keyboard-rescue:1N4148-Diode D34
 U 1 1 5C507E87
 P 7900 3100
 F 0 "D34" H 7900 3200 50  0000 C CNN
@@ -1402,7 +1402,7 @@ F 3 "" H 7900 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D35
+L Mechanical-Keyboard-rescue:1N4148-Diode D35
 U 1 1 5C508038
 P 7900 3850
 F 0 "D35" H 7900 3950 50  0000 C CNN
@@ -1413,7 +1413,7 @@ F 3 "" H 7900 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D39
+L Mechanical-Keyboard-rescue:1N4148-Diode D39
 U 1 1 5C5081E8
 P 8900 3850
 F 0 "D39" H 8900 3950 50  0000 C CNN
@@ -1424,7 +1424,7 @@ F 3 "" H 8900 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D38
+L Mechanical-Keyboard-rescue:1N4148-Diode D38
 U 1 1 5C508397
 P 8900 3100
 F 0 "D38" H 8900 3200 50  0000 C CNN
@@ -1435,7 +1435,7 @@ F 3 "" H 8900 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D43
+L Mechanical-Keyboard-rescue:1N4148-Diode D43
 U 1 1 5C508547
 P 9900 3850
 F 0 "D43" H 9900 3950 50  0000 C CNN
@@ -1446,7 +1446,7 @@ F 3 "" H 9900 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D42
+L Mechanical-Keyboard-rescue:1N4148-Diode D42
 U 1 1 5C50870A
 P 9900 3100
 F 0 "D42" H 9900 3200 50  0000 C CNN
@@ -1457,7 +1457,7 @@ F 3 "" H 9900 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D46
+L Mechanical-Keyboard-rescue:1N4148-Diode D46
 U 1 1 5C5088BE
 P 10950 3100
 F 0 "D46" H 10950 3200 50  0000 C CNN
@@ -1468,7 +1468,7 @@ F 3 "" H 10950 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D47
+L Mechanical-Keyboard-rescue:1N4148-Diode D47
 U 1 1 5C508C22
 P 10950 3850
 F 0 "D47" H 10950 3950 50  0000 C CNN
@@ -1479,7 +1479,7 @@ F 3 "" H 10950 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D51
+L Mechanical-Keyboard-rescue:1N4148-Diode D51
 U 1 1 5C508DEC
 P 11950 3100
 F 0 "D51" H 11950 3200 50  0000 C CNN
@@ -1490,7 +1490,7 @@ F 3 "" H 11950 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D57
+L Mechanical-Keyboard-rescue:1N4148-Diode D57
 U 1 1 5C509405
 P 12950 3850
 F 0 "D57" H 12950 3950 50  0000 C CNN
@@ -1501,7 +1501,7 @@ F 3 "" H 12950 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D56
+L Mechanical-Keyboard-rescue:1N4148-Diode D56
 U 1 1 5C509742
 P 12950 3100
 F 0 "D56" H 12950 3200 50  0000 C CNN
@@ -1512,7 +1512,7 @@ F 3 "" H 12950 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D61
+L Mechanical-Keyboard-rescue:1N4148-Diode D61
 U 1 1 5C509A0F
 P 13950 3100
 F 0 "D61" H 13950 3200 50  0000 C CNN
@@ -1523,7 +1523,7 @@ F 3 "" H 13950 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D62
+L Mechanical-Keyboard-rescue:1N4148-Diode D62
 U 1 1 5C509BC1
 P 13950 3850
 F 0 "D62" H 13950 3950 50  0000 C CNN
@@ -1534,7 +1534,7 @@ F 3 "" H 13950 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D63
+L Mechanical-Keyboard-rescue:1N4148-Diode D63
 U 1 1 5C509D74
 P 15000 3100
 F 0 "D63" H 15000 3200 50  0000 C CNN
@@ -1545,7 +1545,7 @@ F 3 "" H 15000 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D66
+L Mechanical-Keyboard-rescue:1N4148-Diode D66
 U 1 1 5C509F2A
 P 15000 3850
 F 0 "D66" H 15000 3950 50  0000 C CNN
@@ -1556,7 +1556,7 @@ F 3 "" H 15000 3850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D30
+L Mechanical-Keyboard-rescue:1N4148-Diode D30
 U 1 1 5C523721
 P 6900 3100
 F 0 "D30" H 6900 3200 50  0000 C CNN

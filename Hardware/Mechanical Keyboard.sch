@@ -41,7 +41,7 @@ F20 "col14" I R 10000 4900 60
 F21 "col15" I R 10000 5000 60 
 $EndSheet
 $Comp
-L power:GND #PWR01
+L Mechanical-Keyboard-rescue:GND-power #PWR01
 U 1 1 5C542506
 P 4750 7250
 F 0 "#PWR01" H 4750 7000 50  0001 C CNN
@@ -52,7 +52,7 @@ F 3 "" H 4750 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-Keyboard-rescue:ATMEGA32U4-AU U1
+L Mechanical-Keyboard-rescue:ATMEGA32U4-AU-Mechanical-Keyboard-rescue U1
 U 1 1 5C4F1518
 P 4700 5250
 F 0 "U1" H 3750 6950 50  0000 C CNN
@@ -83,7 +83,7 @@ F3 "VCC" I L 11650 6050 60
 F4 "GND" I L 11650 6200 60 
 $EndSheet
 $Comp
-L Device:R R7
+L Mechanical-Keyboard-rescue:R-Device R7
 U 1 1 5C4FF9D5
 P 11350 5900
 F 0 "R7" V 11430 5900 50  0000 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 11350 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR02
+L Mechanical-Keyboard-rescue:VCC-power #PWR02
 U 1 1 5C5072B7
 P 4500 3200
 F 0 "#PWR02" H 4500 3050 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 4500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR03
+L Mechanical-Keyboard-rescue:VCC-power #PWR03
 U 1 1 5C50759B
 P 14650 3900
 F 0 "#PWR03" H 14650 3750 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 14650 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L Mechanical-Keyboard-rescue:GND-power #PWR04
 U 1 1 5C507696
 P 14950 4250
 F 0 "#PWR04" H 14950 4000 50  0001 C CNN
@@ -127,7 +127,7 @@ F 3 "" H 14950 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR05
+L Mechanical-Keyboard-rescue:VCC-power #PWR05
 U 1 1 5C5087DF
 P 11100 6050
 F 0 "#PWR05" H 11100 5900 50  0001 C CNN
@@ -138,7 +138,7 @@ F 3 "" H 11100 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR06
+L Mechanical-Keyboard-rescue:GND-power #PWR06
 U 1 1 5C508883
 P 11100 6200
 F 0 "#PWR06" H 11100 5950 50  0001 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 11100 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR07
+L Mechanical-Keyboard-rescue:GND-power #PWR07
 U 1 1 5C50B929
 P 11800 3550
 F 0 "#PWR07" H 11800 3300 50  0001 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 11800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L Mechanical-Keyboard-rescue:GND-power #PWR08
 U 1 1 5C50C0CD
 P 6950 6450
 F 0 "#PWR08" H 6950 6200 50  0001 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 6950 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Mechanical-Keyboard-rescue:R-Device R2
 U 1 1 5C50D36F
 P 3150 5050
 F 0 "R2" V 3050 5050 50  0000 C CNN
@@ -182,7 +182,7 @@ F 3 "" H 3150 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L Mechanical-Keyboard-rescue:R-Device R3
 U 1 1 5C50D676
 P 3150 5150
 F 0 "R3" V 3250 5150 50  0000 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 3150 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C1
+L Mechanical-Keyboard-rescue:C-Device C1
 U 1 1 5C50EABA
 P 3400 5550
 F 0 "C1" H 3425 5650 50  0000 L CNN
@@ -204,7 +204,7 @@ F 3 "" H 3400 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L Mechanical-Keyboard-rescue:GND-power #PWR09
 U 1 1 5C50EFE8
 P 3400 5800
 F 0 "#PWR09" H 3400 5550 50  0001 C CNN
@@ -215,7 +215,7 @@ F 3 "" H 3400 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR010
+L Mechanical-Keyboard-rescue:VCC-power #PWR010
 U 1 1 5C5804E3
 P 3400 4750
 F 0 "#PWR010" H 3400 4600 50  0001 C CNN
@@ -226,7 +226,7 @@ F 3 "" H 3400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Mechanical-Keyboard-rescue:C-Device C2
 U 1 1 5C580BB8
 P 1750 4650
 F 0 "C2" H 1775 4750 50  0000 L CNN
@@ -237,7 +237,7 @@ F 3 "" H 1750 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C3
+L Mechanical-Keyboard-rescue:C-Device C3
 U 1 1 5C580CBE
 P 2350 4650
 F 0 "C3" H 2375 4750 50  0000 L CNN
@@ -248,7 +248,7 @@ F 3 "" H 2350 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR011
+L Mechanical-Keyboard-rescue:GND-power #PWR011
 U 1 1 5C58122B
 P 1750 4900
 F 0 "#PWR011" H 1750 4650 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 1750 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L Mechanical-Keyboard-rescue:GND-power #PWR012
 U 1 1 5C58139C
 P 2350 4900
 F 0 "#PWR012" H 2350 4650 50  0001 C CNN
@@ -270,7 +270,7 @@ F 3 "" H 2350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR013
+L Mechanical-Keyboard-rescue:VCC-power #PWR013
 U 1 1 5C58183B
 P 1850 1200
 F 0 "#PWR013" H 1850 1050 50  0001 C CNN
@@ -281,7 +281,7 @@ F 3 "" H 1850 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L Mechanical-Keyboard-rescue:GND-power #PWR014
 U 1 1 5C581BA9
 P 1850 2000
 F 0 "#PWR014" H 1850 1750 50  0001 C CNN
@@ -292,7 +292,7 @@ F 3 "" H 1850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Mechanical-Keyboard-rescue:R-Device R1
 U 1 1 5C583CEE
 P 3450 3200
 F 0 "R1" V 3530 3200 50  0000 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 3450 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR015
+L Mechanical-Keyboard-rescue:VCC-power #PWR015
 U 1 1 5C584469
 P 3450 2900
 F 0 "#PWR015" H 3450 2750 50  0001 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 1300 1650 157 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Mechanical-Keyboard-rescue:R-Device R4
 U 1 1 5C5F64E5
 P 6600 5800
 F 0 "R4" V 6500 5800 50  0000 C CNN
@@ -336,7 +336,7 @@ F 3 "" H 6600 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR016
+L Mechanical-Keyboard-rescue:GND-power #PWR016
 U 1 1 5C5FD875
 P 1500 4000
 F 0 "#PWR016" H 1500 3750 50  0001 C CNN
@@ -347,7 +347,7 @@ F 3 "" H 1500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Mechanical-Keyboard-rescue:C-Device C4
 U 1 1 5C608F79
 P 3400 6350
 F 0 "C4" H 3425 6450 50  0000 L CNN
@@ -504,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 6200 6150 6200
 $Comp
-L power:GND #PWR017
+L Mechanical-Keyboard-rescue:GND-power #PWR017
 U 1 1 5C60BB3D
 P 3400 6550
 F 0 "#PWR017" H 3400 6300 50  0001 C CNN
@@ -521,7 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6100 3550 6100
 $Comp
-L power:VCC #PWR018
+L Mechanical-Keyboard-rescue:VCC-power #PWR018
 U 1 1 5C60CED5
 P 4950 3200
 F 0 "#PWR018" H 4950 3050 50  0001 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 4950 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR019
+L Mechanical-Keyboard-rescue:VCC-power #PWR019
 U 1 1 5C60CF9A
 P 4850 3200
 F 0 "#PWR019" H 4850 3050 50  0001 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 4850 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR020
+L Mechanical-Keyboard-rescue:VCC-power #PWR020
 U 1 1 5C60D053
 P 4600 3200
 F 0 "#PWR020" H 4600 3050 50  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 4600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR021
+L Mechanical-Keyboard-rescue:VCC-power #PWR021
 U 1 1 5C60D10C
 P 4250 3200
 F 0 "#PWR021" H 4250 3050 50  0001 C CNN
@@ -573,7 +573,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3200 4250 3450
 $Comp
-L power:GND #PWR022
+L Mechanical-Keyboard-rescue:GND-power #PWR022
 U 1 1 5C60DA59
 P 4850 7250
 F 0 "#PWR022" H 4850 7000 50  0001 C CNN
@@ -584,7 +584,7 @@ F 3 "" H 4850 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L Mechanical-Keyboard-rescue:GND-power #PWR023
 U 1 1 5C60DB12
 P 4550 7250
 F 0 "#PWR023" H 4550 7000 50  0001 C CNN
@@ -595,7 +595,7 @@ F 3 "" H 4550 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L Mechanical-Keyboard-rescue:GND-power #PWR024
 U 1 1 5C60DBCB
 P 4650 7250
 F 0 "#PWR024" H 4650 7000 50  0001 C CNN
@@ -606,7 +606,7 @@ F 3 "" H 4650 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L Mechanical-Keyboard-rescue:GND-power #PWR025
 U 1 1 5C60DD41
 P 4300 7250
 F 0 "#PWR025" H 4300 7000 50  0001 C CNN
@@ -634,7 +634,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5800 6950 5900
 $Comp
-L Device:C C5
+L Mechanical-Keyboard-rescue:C-Device C5
 U 1 1 5C5EEF99
 P 11900 3300
 F 0 "C5" H 11925 3400 50  0000 L CNN
@@ -654,7 +654,7 @@ Wire Wire Line
 	14950 4000 14950 4100
 Connection ~ 14950 4100
 $Comp
-L Device:R R8
+L Mechanical-Keyboard-rescue:R-Device R8
 U 1 1 5C5F33E7
 P 12450 3500
 F 0 "R8" V 12350 3500 50  0000 C CNN
@@ -669,7 +669,7 @@ Wire Wire Line
 Wire Wire Line
 	11800 3500 11900 3500
 $Comp
-L Device:R R11
+L Mechanical-Keyboard-rescue:R-Device R11
 U 1 1 5C5F5FFC
 P 14250 4000
 F 0 "R11" V 14150 4000 50  0000 C CNN
@@ -682,7 +682,7 @@ $EndComp
 Wire Wire Line
 	13950 4000 14100 4000
 $Comp
-L Device:C C6
+L Mechanical-Keyboard-rescue:C-Device C6
 U 1 1 5C5F6F1C
 P 2500 1600
 F 0 "C6" H 2525 1700 50  0000 L CNN
@@ -697,7 +697,7 @@ Wire Wire Line
 	2500 1850 2500 1750
 Connection ~ 1850 1850
 $Comp
-L Device:R R13
+L Mechanical-Keyboard-rescue:R-Device R13
 U 1 1 5C5FA03C
 P 14250 4300
 F 0 "R13" V 14200 4500 50  0000 C CNN
@@ -713,7 +713,7 @@ Wire Wire Line
 	14400 4300 14650 4300
 Connection ~ 14650 4300
 $Comp
-L Device:R R12
+L Mechanical-Keyboard-rescue:R-Device R12
 U 1 1 5C5FAAE6
 P 14250 4200
 F 0 "R12" V 14200 4400 50  0000 C CNN
@@ -729,7 +729,7 @@ Wire Wire Line
 	14400 4200 14650 4200
 Connection ~ 14650 4200
 $Comp
-L power:VCC #PWR026
+L Mechanical-Keyboard-rescue:VCC-power #PWR026
 U 1 1 5C600F03
 P 11400 3800
 F 0 "#PWR026" H 11400 3650 50  0001 C CNN
@@ -746,7 +746,7 @@ Wire Wire Line
 	12550 3600 12550 3850
 Connection ~ 12550 3600
 $Comp
-L Device:R R9
+L Mechanical-Keyboard-rescue:R-Device R9
 U 1 1 5C6014FC
 P 11950 3850
 F 0 "R9" V 11850 3850 50  0000 C CNN
@@ -757,7 +757,7 @@ F 3 "" H 11950 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R10
+L Mechanical-Keyboard-rescue:R-Device R10
 U 1 1 5C6015EB
 P 11950 3950
 F 0 "R10" V 12050 3950 50  0000 C CNN
@@ -926,7 +926,7 @@ usb_d-
 Text Label 1500 1650 0    60   ~ 0
 usb_d+
 $Comp
-L Device:R R5
+L Mechanical-Keyboard-rescue:R-Device R5
 U 1 1 5C6895D0
 P 6600 5900
 F 0 "R5" V 6680 5900 50  0000 C CNN
@@ -937,7 +937,7 @@ F 3 "" H 6600 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L Mechanical-Keyboard-rescue:R-Device R6
 U 1 1 5C68A00B
 P 6600 6300
 F 0 "R6" V 6680 6300 50  0000 C CNN
@@ -1034,7 +1034,7 @@ Wire Wire Line
 	1800 4400 1750 4400
 Connection ~ 1750 4400
 $Comp
-L power:GND #PWR027
+L Mechanical-Keyboard-rescue:GND-power #PWR027
 U 1 1 5C5F19B1
 P 1950 4750
 F 0 "#PWR027" H 1950 4500 50  0001 C CNN
@@ -1045,7 +1045,7 @@ F 3 "" H 1950 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L Mechanical-Keyboard-rescue:GND-power #PWR028
 U 1 1 5C5F1AC8
 P 2150 4750
 F 0 "#PWR028" H 2150 4500 50  0001 C CNN

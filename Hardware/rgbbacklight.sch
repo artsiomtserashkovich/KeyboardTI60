@@ -253,9 +253,11 @@ Wire Wire Line
 	5050 4100 5050 4500
 Connection ~ 5050 4950
 $Comp
-L Device:C C102
+L Mechanical-Keyboard-rescue:C-Device C102
 U 1 1 5C4F9B26
 P 4450 2150
+AR Path="/5C4F9B26" Ref="C102"  Part="1" 
+AR Path="/5C4F5362/5C4F9B26" Ref="C102"  Part="1" 
 F 0 "C102" H 4475 2250 50  0000 L CNN
 F 1 "0.1u" H 4475 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4488 2000 50  0001 C CNN
@@ -264,9 +266,11 @@ F 3 "" H 4450 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C101
+L Mechanical-Keyboard-rescue:C-Device C101
 U 1 1 5C4F9B9D
 P 2500 2150
+AR Path="/5C4F9B9D" Ref="C101"  Part="1" 
+AR Path="/5C4F5362/5C4F9B9D" Ref="C101"  Part="1" 
 F 0 "C101" H 2525 2250 50  0000 L CNN
 F 1 "0.1u" H 2525 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2538 2000 50  0001 C CNN
@@ -275,9 +279,11 @@ F 3 "" H 2500 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C103
+L Mechanical-Keyboard-rescue:C-Device C103
 U 1 1 5C4F9C07
 P 6450 2150
+AR Path="/5C4F9C07" Ref="C103"  Part="1" 
+AR Path="/5C4F5362/5C4F9C07" Ref="C103"  Part="1" 
 F 0 "C103" H 6475 2250 50  0000 L CNN
 F 1 "0.1u" H 6475 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6488 2000 50  0001 C CNN
@@ -286,9 +292,11 @@ F 3 "" H 6450 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C104
+L Mechanical-Keyboard-rescue:C-Device C104
 U 1 1 5C4F9C90
 P 8400 2150
+AR Path="/5C4F9C90" Ref="C104"  Part="1" 
+AR Path="/5C4F5362/5C4F9C90" Ref="C104"  Part="1" 
 F 0 "C104" H 8425 2250 50  0000 L CNN
 F 1 "0.1u" H 8425 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8438 2000 50  0001 C CNN
@@ -297,9 +305,11 @@ F 3 "" H 8400 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C105
+L Mechanical-Keyboard-rescue:C-Device C105
 U 1 1 5C4F9CF6
 P 10350 2150
+AR Path="/5C4F9CF6" Ref="C105"  Part="1" 
+AR Path="/5C4F5362/5C4F9CF6" Ref="C105"  Part="1" 
 F 0 "C105" H 10375 2250 50  0000 L CNN
 F 1 "0.1u" H 10375 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10388 2000 50  0001 C CNN
@@ -333,9 +343,11 @@ Wire Wire Line
 	10500 2150 10850 2150
 Connection ~ 10850 2150
 $Comp
-L Device:C C107
+L Mechanical-Keyboard-rescue:C-Device C107
 U 1 1 5C4FB230
 P 8400 4500
+AR Path="/5C4FB230" Ref="C107"  Part="1" 
+AR Path="/5C4F5362/5C4FB230" Ref="C107"  Part="1" 
 F 0 "C107" H 8425 4600 50  0000 L CNN
 F 1 "0.1u" H 8425 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8438 4350 50  0001 C CNN
@@ -344,9 +356,11 @@ F 3 "" H 8400 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C106
+L Mechanical-Keyboard-rescue:C-Device C106
 U 1 1 5C4FB2C0
 P 10350 4500
+AR Path="/5C4FB2C0" Ref="C106"  Part="1" 
+AR Path="/5C4F5362/5C4FB2C0" Ref="C106"  Part="1" 
 F 0 "C106" H 10375 4600 50  0000 L CNN
 F 1 "0.1u" H 10375 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10388 4350 50  0001 C CNN
@@ -355,9 +369,11 @@ F 3 "" H 10350 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C108
+L Mechanical-Keyboard-rescue:C-Device C108
 U 1 1 5C4FB33B
 P 6450 4500
+AR Path="/5C4FB33B" Ref="C108"  Part="1" 
+AR Path="/5C4F5362/5C4FB33B" Ref="C108"  Part="1" 
 F 0 "C108" H 6475 4600 50  0000 L CNN
 F 1 "0.1u" H 6475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6488 4350 50  0001 C CNN
@@ -366,9 +382,11 @@ F 3 "" H 6450 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C109
+L Mechanical-Keyboard-rescue:C-Device C109
 U 1 1 5C4FB3B1
 P 4450 4500
+AR Path="/5C4FB3B1" Ref="C109"  Part="1" 
+AR Path="/5C4F5362/5C4FB3B1" Ref="C109"  Part="1" 
 F 0 "C109" H 4475 4600 50  0000 L CNN
 F 1 "0.1u" H 4475 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4488 4350 50  0001 C CNN
@@ -377,9 +395,11 @@ F 3 "" H 4450 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C110
+L Mechanical-Keyboard-rescue:C-Device C110
 U 1 1 5C4FB42E
 P 2500 4500
+AR Path="/5C4FB42E" Ref="C110"  Part="1" 
+AR Path="/5C4F5362/5C4FB42E" Ref="C110"  Part="1" 
 F 0 "C110" H 2525 4600 50  0000 L CNN
 F 1 "0.1u" H 2525 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2538 4350 50  0001 C CNN
@@ -415,7 +435,7 @@ Wire Wire Line
 	10500 4500 10950 4500
 Connection ~ 10950 4500
 $Comp
-L Device:R R100
+L Mechanical-Keyboard-rescue:R-Device R100
 U 1 1 5C6989B6
 P 1650 4100
 F 0 "R100" V 1730 4100 50  0000 C CNN

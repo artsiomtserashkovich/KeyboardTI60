@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:LED LED1
+L Mechanical-Keyboard-rescue:LED-Device LED1
 U 1 1 5C60D53D
 P 1350 6750
 F 0 "LED1" H 1350 6850 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 1350 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED67
+L Mechanical-Keyboard-rescue:LED-Device LED67
 U 1 1 5C5F264B
 P 1350 1150
 F 0 "LED67" H 1350 1250 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 1350 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED56
+L Mechanical-Keyboard-rescue:LED-Device LED56
 U 1 1 5C5F26B3
 P 1350 1850
 F 0 "LED56" H 1350 1950 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 1350 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED51
+L Mechanical-Keyboard-rescue:LED-Device LED51
 U 1 1 5C5F2774
 P 1350 2550
 F 0 "LED51" H 1350 2650 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 1350 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED46
+L Mechanical-Keyboard-rescue:LED-Device LED46
 U 1 1 5C5F277A
 P 1350 3250
 F 0 "LED46" H 1350 3350 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 1350 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED38
+L Mechanical-Keyboard-rescue:LED-Device LED38
 U 1 1 5C5F2966
 P 1350 3950
 F 0 "LED38" H 1350 4050 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 1350 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED30
+L Mechanical-Keyboard-rescue:LED-Device LED30
 U 1 1 5C5F296C
 P 1350 4650
 F 0 "LED30" H 1350 4750 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 1350 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED21
+L Mechanical-Keyboard-rescue:LED-Device LED21
 U 1 1 5C5F2972
 P 1350 5350
 F 0 "LED21" H 1350 5450 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 1350 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED11
+L Mechanical-Keyboard-rescue:LED-Device LED11
 U 1 1 5C5F2978
 P 1350 6050
 F 0 "LED11" H 1350 6150 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 1350 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED3
+L Mechanical-Keyboard-rescue:LED-Device LED3
 U 1 1 5C5F2F07
 P 2800 6750
 F 0 "LED3" H 2800 6850 50  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 2800 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED64
+L Mechanical-Keyboard-rescue:LED-Device LED64
 U 1 1 5C5F2F0D
 P 2800 1150
 F 0 "LED64" H 2800 1250 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 2800 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED53
+L Mechanical-Keyboard-rescue:LED-Device LED53
 U 1 1 5C5F2F13
 P 2800 1850
 F 0 "LED53" H 2800 1950 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 2800 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED47
+L Mechanical-Keyboard-rescue:LED-Device LED47
 U 1 1 5C5F2F19
 P 2800 2550
 F 0 "LED47" H 2800 2650 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 2800 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED39
+L Mechanical-Keyboard-rescue:LED-Device LED39
 U 1 1 5C5F2F1F
 P 2800 3250
 F 0 "LED39" H 2800 3350 50  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 2800 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED35
+L Mechanical-Keyboard-rescue:LED-Device LED35
 U 1 1 5C5F2F25
 P 2800 3950
 F 0 "LED35" H 2800 4050 50  0000 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 2800 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED22
+L Mechanical-Keyboard-rescue:LED-Device LED22
 U 1 1 5C5F2F2B
 P 2800 4650
 F 0 "LED22" H 2800 4750 50  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 2800 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED12
+L Mechanical-Keyboard-rescue:LED-Device LED12
 U 1 1 5C5F2F31
 P 2800 5350
 F 0 "LED12" H 2800 5450 50  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 2800 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED7
+L Mechanical-Keyboard-rescue:LED-Device LED7
 U 1 1 5C5F2F37
 P 2800 6050
 F 0 "LED7" H 2800 6150 50  0000 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 2800 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED5
+L Mechanical-Keyboard-rescue:LED-Device LED5
 U 1 1 5C5F3A59
 P 4250 6750
 F 0 "LED5" H 4250 6850 50  0000 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 4250 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED61
+L Mechanical-Keyboard-rescue:LED-Device LED61
 U 1 1 5C5F3A5F
 P 4250 1150
 F 0 "LED61" H 4250 1250 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 4250 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED60
+L Mechanical-Keyboard-rescue:LED-Device LED60
 U 1 1 5C5F3A65
 P 4250 1850
 F 0 "LED60" H 4250 1950 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 4250 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED45
+L Mechanical-Keyboard-rescue:LED-Device LED45
 U 1 1 5C5F3A6B
 P 4250 2550
 F 0 "LED45" H 4250 2650 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 4250 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED40
+L Mechanical-Keyboard-rescue:LED-Device LED40
 U 1 1 5C5F3A71
 P 4250 3250
 F 0 "LED40" H 4250 3350 50  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 4250 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED32
+L Mechanical-Keyboard-rescue:LED-Device LED32
 U 1 1 5C5F3A77
 P 4250 3950
 F 0 "LED32" H 4250 4050 50  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 4250 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED23
+L Mechanical-Keyboard-rescue:LED-Device LED23
 U 1 1 5C5F3A7D
 P 4250 4650
 F 0 "LED23" H 4250 4750 50  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 4250 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED13
+L Mechanical-Keyboard-rescue:LED-Device LED13
 U 1 1 5C5F3A83
 P 4250 5350
 F 0 "LED13" H 4250 5450 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 4250 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED9
+L Mechanical-Keyboard-rescue:LED-Device LED9
 U 1 1 5C5F3A89
 P 4250 6050
 F 0 "LED9" H 4250 6150 50  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 4250 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED58
+L Mechanical-Keyboard-rescue:LED-Device LED58
 U 1 1 5C5F3A95
 P 5700 1150
 F 0 "LED58" H 5700 1250 50  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 5700 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED68
+L Mechanical-Keyboard-rescue:LED-Device LED68
 U 1 1 5C5F3A9B
 P 5700 1850
 F 0 "LED68" H 5700 1950 50  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 5700 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED50
+L Mechanical-Keyboard-rescue:LED-Device LED50
 U 1 1 5C5F3AA1
 P 5700 2550
 F 0 "LED50" H 5700 2650 50  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 5700 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED41
+L Mechanical-Keyboard-rescue:LED-Device LED41
 U 1 1 5C5F3AA7
 P 5700 3250
 F 0 "LED41" H 5700 3350 50  0000 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 5700 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED33
+L Mechanical-Keyboard-rescue:LED-Device LED33
 U 1 1 5C5F3AAD
 P 5700 3950
 F 0 "LED33" H 5700 4050 50  0000 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 5700 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED29
+L Mechanical-Keyboard-rescue:LED-Device LED29
 U 1 1 5C5F3AB3
 P 5700 4650
 F 0 "LED29" H 5700 4750 50  0000 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 5700 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED14
+L Mechanical-Keyboard-rescue:LED-Device LED14
 U 1 1 5C5F3AB9
 P 5700 5350
 F 0 "LED14" H 5700 5450 50  0000 C CNN
@@ -389,7 +389,7 @@ F 3 "" H 5700 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED20
+L Mechanical-Keyboard-rescue:LED-Device LED20
 U 1 1 5C5F3ABF
 P 5700 6050
 F 0 "LED20" H 5700 6150 50  0000 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 5700 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED2
+L Mechanical-Keyboard-rescue:LED-Device LED2
 U 1 1 5C5F5025
 P 2100 6800
 F 0 "LED2" H 2100 6900 50  0000 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 2100 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED66
+L Mechanical-Keyboard-rescue:LED-Device LED66
 U 1 1 5C5F502B
 P 2100 1200
 F 0 "LED66" H 2100 1300 50  0000 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 2100 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED57
+L Mechanical-Keyboard-rescue:LED-Device LED57
 U 1 1 5C5F5031
 P 2100 1900
 F 0 "LED57" H 2100 2000 50  0000 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 2100 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED52
+L Mechanical-Keyboard-rescue:LED-Device LED52
 U 1 1 5C5F5037
 P 2100 2600
 F 0 "LED52" H 2100 2700 50  0000 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 2100 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED42
+L Mechanical-Keyboard-rescue:LED-Device LED42
 U 1 1 5C5F503D
 P 2100 3300
 F 0 "LED42" H 2100 3400 50  0000 C CNN
@@ -455,7 +455,7 @@ F 3 "" H 2100 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED34
+L Mechanical-Keyboard-rescue:LED-Device LED34
 U 1 1 5C5F5043
 P 2100 4000
 F 0 "LED34" H 2100 4100 50  0000 C CNN
@@ -466,7 +466,7 @@ F 3 "" H 2100 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED26
+L Mechanical-Keyboard-rescue:LED-Device LED26
 U 1 1 5C5F5049
 P 2100 4700
 F 0 "LED26" H 2100 4800 50  0000 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 2100 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED16
+L Mechanical-Keyboard-rescue:LED-Device LED16
 U 1 1 5C5F504F
 P 2100 5400
 F 0 "LED16" H 2100 5500 50  0000 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 2100 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED6
+L Mechanical-Keyboard-rescue:LED-Device LED6
 U 1 1 5C5F5055
 P 2100 6100
 F 0 "LED6" H 2100 6200 50  0000 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 2100 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED4
+L Mechanical-Keyboard-rescue:LED-Device LED4
 U 1 1 5C5F505B
 P 3550 6800
 F 0 "LED4" H 3550 6900 50  0000 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED63
+L Mechanical-Keyboard-rescue:LED-Device LED63
 U 1 1 5C5F5061
 P 3550 1200
 F 0 "LED63" H 3550 1300 50  0000 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 3550 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED54
+L Mechanical-Keyboard-rescue:LED-Device LED54
 U 1 1 5C5F5067
 P 3550 1900
 F 0 "LED54" H 3550 2000 50  0000 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 3550 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED48
+L Mechanical-Keyboard-rescue:LED-Device LED48
 U 1 1 5C5F506D
 P 3550 2600
 F 0 "LED48" H 3550 2700 50  0000 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 3550 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED43
+L Mechanical-Keyboard-rescue:LED-Device LED43
 U 1 1 5C5F5073
 P 3550 3300
 F 0 "LED43" H 3550 3400 50  0000 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 3550 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED31
+L Mechanical-Keyboard-rescue:LED-Device LED31
 U 1 1 5C5F5079
 P 3550 4000
 F 0 "LED31" H 3550 4100 50  0000 C CNN
@@ -565,7 +565,7 @@ F 3 "" H 3550 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED27
+L Mechanical-Keyboard-rescue:LED-Device LED27
 U 1 1 5C5F507F
 P 3550 4700
 F 0 "LED27" H 3550 4800 50  0000 C CNN
@@ -576,7 +576,7 @@ F 3 "" H 3550 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED17
+L Mechanical-Keyboard-rescue:LED-Device LED17
 U 1 1 5C5F5085
 P 3550 5400
 F 0 "LED17" H 3550 5500 50  0000 C CNN
@@ -587,7 +587,7 @@ F 3 "" H 3550 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED8
+L Mechanical-Keyboard-rescue:LED-Device LED8
 U 1 1 5C5F508B
 P 3550 6100
 F 0 "LED8" H 3550 6200 50  0000 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 3550 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED10
+L Mechanical-Keyboard-rescue:LED-Device LED10
 U 1 1 5C5F5091
 P 5000 6800
 F 0 "LED10" H 5000 6900 50  0000 C CNN
@@ -609,7 +609,7 @@ F 3 "" H 5000 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED62
+L Mechanical-Keyboard-rescue:LED-Device LED62
 U 1 1 5C5F5097
 P 5000 1200
 F 0 "LED62" H 5000 1300 50  0000 C CNN
@@ -620,7 +620,7 @@ F 3 "" H 5000 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED65
+L Mechanical-Keyboard-rescue:LED-Device LED65
 U 1 1 5C5F509D
 P 5000 1900
 F 0 "LED65" H 5000 2000 50  0000 C CNN
@@ -631,7 +631,7 @@ F 3 "" H 5000 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED49
+L Mechanical-Keyboard-rescue:LED-Device LED49
 U 1 1 5C5F50A3
 P 5000 2600
 F 0 "LED49" H 5000 2700 50  0000 C CNN
@@ -642,7 +642,7 @@ F 3 "" H 5000 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED44
+L Mechanical-Keyboard-rescue:LED-Device LED44
 U 1 1 5C5F50A9
 P 5000 3300
 F 0 "LED44" H 5000 3400 50  0000 C CNN
@@ -653,7 +653,7 @@ F 3 "" H 5000 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED36
+L Mechanical-Keyboard-rescue:LED-Device LED36
 U 1 1 5C5F50AF
 P 5000 4000
 F 0 "LED36" H 5000 4100 50  0000 C CNN
@@ -664,7 +664,7 @@ F 3 "" H 5000 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED28
+L Mechanical-Keyboard-rescue:LED-Device LED28
 U 1 1 5C5F50B5
 P 5000 4700
 F 0 "LED28" H 5000 4800 50  0000 C CNN
@@ -675,7 +675,7 @@ F 3 "" H 5000 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED18
+L Mechanical-Keyboard-rescue:LED-Device LED18
 U 1 1 5C5F50BB
 P 5000 5400
 F 0 "LED18" H 5000 5500 50  0000 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 5000 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED15
+L Mechanical-Keyboard-rescue:LED-Device LED15
 U 1 1 5C5F50C1
 P 5000 6100
 F 0 "LED15" H 5000 6200 50  0000 C CNN
@@ -697,7 +697,7 @@ F 3 "" H 5000 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED59
+L Mechanical-Keyboard-rescue:LED-Device LED59
 U 1 1 5C5F50CD
 P 6450 1200
 F 0 "LED59" H 6450 1300 50  0000 C CNN
@@ -708,7 +708,7 @@ F 3 "" H 6450 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED69
+L Mechanical-Keyboard-rescue:LED-Device LED69
 U 1 1 5C5F50D3
 P 6450 1900
 F 0 "LED69" H 6450 2000 50  0000 C CNN
@@ -719,7 +719,7 @@ F 3 "" H 6450 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED55
+L Mechanical-Keyboard-rescue:LED-Device LED55
 U 1 1 5C5F50D9
 P 6450 2600
 F 0 "LED55" H 6450 2700 50  0000 C CNN
@@ -730,7 +730,7 @@ F 3 "" H 6450 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED37
+L Mechanical-Keyboard-rescue:LED-Device LED37
 U 1 1 5C5F50DF
 P 6450 3300
 F 0 "LED37" H 6450 3400 50  0000 C CNN
@@ -741,7 +741,7 @@ F 3 "" H 6450 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED25
+L Mechanical-Keyboard-rescue:LED-Device LED25
 U 1 1 5C5F50E5
 P 6450 4000
 F 0 "LED25" H 6450 4100 50  0000 C CNN
@@ -752,7 +752,7 @@ F 3 "" H 6450 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED24
+L Mechanical-Keyboard-rescue:LED-Device LED24
 U 1 1 5C5F50EB
 P 6450 4700
 F 0 "LED24" H 6450 4800 50  0000 C CNN
@@ -763,7 +763,7 @@ F 3 "" H 6450 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED LED19
+L Mechanical-Keyboard-rescue:LED-Device LED19
 U 1 1 5C5F50F1
 P 6450 5400
 F 0 "LED19" H 6450 5500 50  0000 C CNN
