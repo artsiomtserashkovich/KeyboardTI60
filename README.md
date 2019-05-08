@@ -8,7 +8,7 @@ A common 60% PCB with RGB Backlight.
 ## TI60 Hardware Information
 
     MCU: Atmega32u4
-    Led Driver: IS
+    Led Driver: IS31FL3731
     Leds: WS2812
     
     Led Pin: D2
