@@ -1,8 +1,6 @@
 TI60
 ===
 
-![ti60 PCB]()
-
 A common 60% PCB with RGB Backlight.
 
 ## TI60 Hardware Information
